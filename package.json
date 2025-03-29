@@ -10,12 +10,16 @@
   },
   "dependencies": {
     "@chakra-ui/counter": "^2.1.0",
+    "@tabler/icons-react": "^3.31.0",
+    "clsx": "^2.1.1",
     "daisyui": "^5.0.9",
+    "motion": "^12.6.2",
     "next": "15.2.4",
     "react": "^19.0.0",
     "react-countdown": "^2.3.6",
     "react-dom": "^19.0.0",
-    "react-timer-hook": "^4.0.5"
+    "react-timer-hook": "^4.0.5",
+    "tailwind-merge": "^3.0.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

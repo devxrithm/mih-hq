@@ -6,6 +6,14 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'img.freepik.com',
             },
+            {
+                protocol: 'https',
+                hostname: 'cdn-icons-png.flaticon.com',
+            },
+            {
+                protocol: 'https',
+                hostname: 'assets.aceternity.com',
+            },
         ],
     },
 };

@@ -10,10 +10,10 @@ const Header = () => {
     time.setSeconds(time.getSeconds() + 2500000);
 
     return (
-        <div className="relative h-[42rem]">
+        <div className="relative h-[48rem]">
             {/* Background overlay */}
             <div
-                className="absolute inset-0 bg-[url(/cropbg.jpg)] bg-no-repeat bg-center bg-cover "
+                className="absolute inset-0 bg-[url(/cropbg.jpg)] bg-no-repeat bg-center bg-cover bg-fixed "
                 style={{ filter: 'brightness(0.4)' }} // Adjust the brightness value as needed
             >
             </div>
