@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/counter": "^2.1.0",
+    "daisyui": "^5.0.9",
     "next": "15.2.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-countdown": "^2.3.6",
+    "react-dom": "^19.0.0",
+    "react-timer-hook": "^4.0.5"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
