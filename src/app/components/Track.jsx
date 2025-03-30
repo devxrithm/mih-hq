@@ -5,17 +5,11 @@ import { greatVibes, born2b } from '../../../styles/font'
 const Track = () => {
     return (
         <>
-            <div className="h-[40rem]" id="track" >
-
-                {/* <div
-                    className="absolute inset-0 bg-[url(/secbg.jpg)] bg-no-repeat bg-center bg-cover "
-                    style={{ filter: 'brightness(0.2)' }} // Adjust the brightness value as needed
-                >
-                </div> */}
+            <div className="h-[40rem] backdrop-blur-sm mx-10" id="track" >
                 <div className=" flex items-center justify-center flex-col gap-8">
                     <div className={`${greatVibes.className} text-5xl pt-14 relative`}>
                         <div className="flex justify-center items-center gap-5 ">
-                            <div className="rotate-280">
+                            <div className="rotate-280 ">
                                 <Image
                                     src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
                                     height={100}
@@ -33,7 +27,7 @@ const Track = () => {
                         </div>
                     </div>
                     <div className="flex justify-center items-center gap-10">
-                        <div className="relative">
+                        <div className="relative animate-bounce delay-1000 duration-300 ">
                             <Image
                                 src="/track.jpg"
                                 height={420}
@@ -46,6 +40,7 @@ const Track = () => {
                                 <p className="text-5xl">26 April</p>
                             </div>
                         </div>
+
                         <div className="flex flex-col justify-center items-center">
                             <div className="relative">
                                 <Image
@@ -79,7 +74,7 @@ const Track = () => {
                             </div>
                         </div>
 
-                        <div className="relative">
+                        <div className="relative animate-bounce delay-1000 duration-300 ">
                             <Image
                                 src="/track.jpg"
                                 height={420}

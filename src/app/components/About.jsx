@@ -6,8 +6,8 @@ import Box from '../utils/Box'
 const About = () => {
     return (
         <>
-            <div className="h-[45rem] px-14 py-20 mx-5 bg-black mb-10 text-white rounded-3xl ">
-                <div className="flex justify-center items-center gap-5 ">
+            <div className="h-[45rem] px-14 py-20 mx-5 bg-transparent backdrop-blur-sm mb-10 text-white rounded-3xl ">
+                <div className="flex justify-center items-center gap-5  ">
                     <Image
                         src="https://cdn-icons-png.flaticon.com/128/15621/15621476.png"
                         height={80}
