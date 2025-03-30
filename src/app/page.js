@@ -6,6 +6,8 @@ import { TimelineDemo } from "./components/Timeline";
 import Track from "./components/Track";
 import Rules from "./components/Rules";
 import Versions from "./components/Versions";
+import Sponsor from "./components/Sponsor";
+import Pateron from "./components/Pateron";
 
 
 export default function Home() {
@@ -15,7 +17,9 @@ export default function Home() {
       <About />
       <Track/>
       <Rules/>
-      <Versions/>
+      {/* <Versions/> */}
+      <Sponsor/>
+      <Pateron/>
       {/* <TimelineDemo/> */}
     </>
   );

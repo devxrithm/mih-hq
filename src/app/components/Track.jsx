@@ -5,9 +5,10 @@ import { greatVibes, born2b } from '../../../styles/font'
 const Track = () => {
     return (
         <>
-            <div className="h-[38rem] bg-[url(/cropbg.jpg)] bg-no-repeat bg-center bg-cover rounded-3xl mx-5" id="track" >
-                <div className=" flex items-center justify-center flex-col gap-8 backdrop-blur-sm rounded-3xl">
-                    <div className={`${greatVibes.className} text-5xl pt-14 relative`}>
+            <div className="h-[40rem] bg-[url(/cropbg.jpg)] bg-no-repeat bg-center bg-cover rounded-3xl mx-5" id="track" >
+                <div className=" flex items-center justify-center flex-col  backdrop-blur-sm rounded-3xl h-[40rem]">
+
+                    <div className={`${greatVibes.className} text-5xl  relative`}>
                         <div className="flex justify-center items-center gap-10 ">
                             <div className="rotate-225 ">
                                 <Image
@@ -28,15 +29,18 @@ const Track = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-center items-center gap-10">
-                        <div className="relative animate-bounce delay-1000 duration-300 ">
+
+
+                    <div className="flex justify-center items-center mx-24">
+
+                        <div className="relative left-12 ">
                             <Image
-                                src="/track.jpg"
-                                height={420}
-                                width={420}
+                                src="/tracktime.jpg"
+                                height={500}
+                                width={500}
                                 alt='logo'
                             />
-                            <div className={`${born2b.className} absolute top-30 left-32 text-center `}>
+                            <div className={`${born2b.className} absolute top-28 left-28 text-center `}>
                                 <h1 className='text-6xl'>Round 1</h1>
                                 <p className="text-4xl ">(Online)</p>
                                 <p className="text-5xl">26 April</p>
@@ -46,18 +50,18 @@ const Track = () => {
                         <div className="flex flex-col justify-center items-center">
                             <div className="relative">
                                 <Image
-                                    src="/track2.png"
-                                    height={350}
-                                    width={350}
+                                    src="/spartan.png"
+                                    height={550}
+                                    width={550}
                                     alt='logo'
                                 />
-                                <div className={`${born2b.className} absolute top-10 left-26 text-center `}>
+                                {/* <div className={`${born2b.className} absolute top-10 left-26 text-center `}>
                                     <h1 className='text-6xl'>Round 2</h1>
                                     <p className="text-4xl ">(Online)</p>
                                     <p className="text-5xl">27 April</p>
-                                </div>
+                                </div> */}
                             </div>
-                            <div className="relative">
+                            {/* <div className="relative">
                                 <Image
                                     src="/scanqr.png"
                                     height={300}
@@ -73,17 +77,17 @@ const Track = () => {
                                     />
                                     <h1 className='text-2xl'>Scan To Register</h1>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
-                        <div className="relative animate-bounce delay-1000 duration-300 ">
+                        <div className="relative right-12">
                             <Image
-                                src="/track.jpg"
-                                height={420}
-                                width={420}
+                                src="/tracktime.jpg"
+                                height={500}
+                                width={500}
                                 alt='logo'
                             />
-                            <div className={`${born2b.className} absolute top-30 left-32 text-center `}>
+                            <div className={`${born2b.className} absolute top-20 left-28 text-center `}>
                                 <h1 className='text-6xl'>Finale</h1>
                                 <p className="text-4xl ">(Offline)</p>
                                 <p className="text-5xl">1 - 2 May</p>
@@ -91,6 +95,8 @@ const Track = () => {
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
 
