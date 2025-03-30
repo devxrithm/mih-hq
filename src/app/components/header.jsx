@@ -4,6 +4,7 @@ import { greatVibes, born2b } from '../../../styles/font'
 import Navbar from '../utils/Navbar'
 import Counter from '../utils/Counter'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Header = () => {
     const time = new Date();
@@ -51,7 +52,7 @@ const Header = () => {
             {/* *********count*************** */}
             <Counter expiryTimestamp={time} />
 
-            <div className="flex justify-center items-center text-2xl text-white relative mt-5 ">
+            <div className="flex justify-center items-center text-2xl text-white relative mt-10 hover:scale-95">
                 <button className={`${greatVibes.className} px-7 py-3 bg-orange-500 rounded-3xl`}>Register Now</button>
             </div>
         </div>

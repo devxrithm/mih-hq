@@ -5,7 +5,7 @@ import { greatVibes, born2b } from '../../../styles/font'
 const Box = ({ imgUrl, boxSec, desc }) => {
     return (
         <>
-            <div className="border border-orange-700 flex justify-center items-center min-w-72 flex-col gap-5 p-4 rounded-3xl shadow-white min-h-64 hover:scale-105 transition delay-150 duration-300 ease-in-out ">
+            <div className="border border-gray-700 bg-[#14161a] flex justify-center items-center min-w-72 flex-col gap-5 p-4 rounded-3xl shadow-white min-h-64 hover:scale-105 transition delay-150 duration-300 ease-in-out ">
 
                 <div className="logo animate-bounce">
                     <Image

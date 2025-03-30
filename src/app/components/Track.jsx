@@ -5,11 +5,11 @@ import { greatVibes, born2b } from '../../../styles/font'
 const Track = () => {
     return (
         <>
-            <div className="h-[40rem] backdrop-blur-sm mx-10" id="track" >
-                <div className=" flex items-center justify-center flex-col gap-8">
+            <div className="h-[38rem] bg-[url(/cropbg.jpg)] bg-no-repeat bg-center bg-cover rounded-3xl mx-5" id="track" >
+                <div className=" flex items-center justify-center flex-col gap-8 backdrop-blur-sm rounded-3xl">
                     <div className={`${greatVibes.className} text-5xl pt-14 relative`}>
-                        <div className="flex justify-center items-center gap-5 ">
-                            <div className="rotate-280 ">
+                        <div className="flex justify-center items-center gap-10 ">
+                            <div className="rotate-225 ">
                                 <Image
                                     src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
                                     height={100}
@@ -18,12 +18,14 @@ const Track = () => {
                                 />
                             </div>
                             <h1 className={`${greatVibes.className} text-8xl text-center text-white`}>Timeline </h1>
-                            <Image
-                                src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
-                                height={100}
-                                width={100}
-                                alt='logo'
-                            />
+                            <div className="rotate-45 ">
+                                <Image
+                                    src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
+                                    height={100}
+                                    width={100}
+                                    alt='logo'
+                                />
+                            </div>
                         </div>
                     </div>
                     <div className="flex justify-center items-center gap-10">
