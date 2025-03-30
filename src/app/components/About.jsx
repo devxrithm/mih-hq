@@ -6,19 +6,19 @@ import Box from '../utils/Box'
 const About = () => {
     return (
         <>
-            <div className="h-[35rem] px-14 py-10 mx-5 bg-black mb-10 text-white rounded-3xl relative -mt-14 ">
+            <div className="h-[45rem] px-14 py-20 mx-5 bg-black mb-10 text-white rounded-3xl ">
                 <div className="flex justify-center items-center gap-5 ">
                     <Image
                         src="https://cdn-icons-png.flaticon.com/128/15621/15621476.png"
-                        height={50}
-                        width={50}
+                        height={80}
+                        width={80}
                         alt='logo'
                     />
-                    <h1 className={`${greatVibes.className} text-5xl text-center`}>About <span className="text-orange-600">MIH</span> </h1>
+                    <h1 className={`${greatVibes.className} text-8xl text-center`}>About <span className="text-orange-600">MIH</span> </h1>
                     <Image
                         src="https://cdn-icons-png.flaticon.com/128/8583/8583878.png"
-                        height={50}
-                        width={50}
+                        height={80}
+                        width={80}
                         alt='logo'
                     />
                 </div>

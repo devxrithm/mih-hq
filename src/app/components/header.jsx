@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { version } from 'react'
 import { greatVibes, born2b } from '../../../styles/font'
 import Navbar from '../utils/Navbar'
 import Counter from '../utils/Counter'
@@ -12,11 +12,11 @@ const Header = () => {
     return (
         <div className="relative h-[48rem]">
             {/* Background overlay */}
-            <div
+            {/* <div
                 className="absolute inset-0 bg-[url(/cropbg.jpg)] bg-no-repeat bg-center bg-cover bg-fixed "
                 style={{ filter: 'brightness(0.4)' }} // Adjust the brightness value as needed
             >
-            </div>
+            </div> */}
 
             {/* ******Navbar********************* */}
             <Navbar />
@@ -59,3 +59,11 @@ const Header = () => {
 }
 
 export default Header
+
+// rule
+// past version
+// our sponsor
+// patron
+// our team
+// contact
+// footer

@@ -5,27 +5,29 @@ import { greatVibes, born2b } from '../../../styles/font'
 const Track = () => {
     return (
         <>
-            <div className="relative h-[40rem]" >
+            <div className="h-[40rem]" id="track" >
 
-                <div
+                {/* <div
                     className="absolute inset-0 bg-[url(/secbg.jpg)] bg-no-repeat bg-center bg-cover "
                     style={{ filter: 'brightness(0.2)' }} // Adjust the brightness value as needed
                 >
-                </div>
-                <div className="relative z-20 flex items-center justify-center flex-col gap-8">
+                </div> */}
+                <div className=" flex items-center justify-center flex-col gap-8">
                     <div className={`${greatVibes.className} text-5xl pt-14 relative`}>
                         <div className="flex justify-center items-center gap-5 ">
+                            <div className="rotate-280">
+                                <Image
+                                    src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
+                                    height={100}
+                                    width={100}
+                                    alt='logo'
+                                />
+                            </div>
+                            <h1 className={`${greatVibes.className} text-8xl text-center text-white`}>Timeline </h1>
                             <Image
-                                src="https://cdn-icons-png.flaticon.com/128/15621/15621476.png"
-                                height={50}
-                                width={50}
-                                alt='logo'
-                            />
-                            <h1 className={`${greatVibes.className} text-5xl text-center text-white`}>Timeline </h1>
-                            <Image
-                                src="https://cdn-icons-png.flaticon.com/128/8583/8583878.png"
-                                height={50}
-                                width={50}
+                                src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
+                                height={100}
+                                width={100}
                                 alt='logo'
                             />
                         </div>
