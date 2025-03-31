@@ -8,6 +8,9 @@ import Rules from "./components/Rules";
 import Versions from "./components/Versions";
 import Sponsor from "./components/Sponsor";
 import Pateron from "./components/Pateron";
+import Team from "./components/Team";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 
 export default function Home() {
@@ -20,8 +23,10 @@ export default function Home() {
         <Rules />
         {/* <Versions/> */}
         <Sponsor />
-        <Pateron />
-        {/* <TimelineDemo/> */}
+        <Pateron /> 
+        <Team/>
+        <Contact/>
+        <Footer/>
       </div>
     </>
   );
