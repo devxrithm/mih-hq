@@ -6,7 +6,7 @@ import Box from '../utils/Box'
 const About = () => {
     return (
         <>
-            <div id="about" className="h-[40rem] px-14 py-12 mx-5 bg-transparent backdrop-blur-sm mb-10 text-white rounded-3xl ">
+            <div id="about" className="min-h-auto px-14 py-12 mx-5 bg-transparent backdrop-blur-sm mb-10 text-white rounded-3xl ">
                 <div className="flex justify-center items-center gap-5  ">
                     <Image
                         src="https://cdn-icons-png.flaticon.com/128/15621/15621476.png"
@@ -27,7 +27,7 @@ const About = () => {
                     <h1 className={`${greatVibes.className} text-center text-3xl mx-14`}>The Mind Installers Hackathon is back with its 3rd edition, bringing together some of the brightest tech minds from all over the country for an exciting competition!</h1>
                 </div>
 
-                <div className="flex justify-center items-center gap-5 mt-10">
+                <div className="flex flex-col lg:flex-row justify-center items-center gap-5 mt-10">
                     <Box
                         imgUrl="https://cdn-icons-png.flaticon.com/128/17379/17379046.png"
                         boxSec="36-Hour Coding Sprint"

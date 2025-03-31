@@ -5,54 +5,38 @@ import Image from 'next/image'
 const Rules = () => {
     return (
         <>
-            <div className={`${greatVibes.className} h-[90rem] backdrop-blur-md mx-5 mt-5 px-10 rounded-3xl `}>
+            <div className={`${greatVibes.className} min-h-[90rem] backdrop-blur-md mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl `}>
 
-                <div className={`${greatVibes.className} pt-8 mx-52 `}>
-                    <div className="flex justify-center items-center ">
-                        <div className="rotate-225 ">
-                            <Image
-                                src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
-                                height={100}
-                                width={100}
-                                alt='logo'
-                            />
-                        </div>
-                        <h1 className={`${born2b.className} text-8xl text-center text-white leading-20`}>Mind Installers Hackathon 3.O</h1>
-                        <div className="rotate-45 ">
-                            <Image
-                                src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
-                                height={100}
-                                width={100}
-                                alt='logo'
-                            />
-                        </div>
+
+                <div className={`${greatVibes.className} pt-8  flex  justify-center items-center gap-8`}>
+                    <div className="rotate-225 ">
+                        <Image
+                            src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
+                            height={100}
+                            width={100}
+                            alt='logo'
+                        />
+                    </div>
+                    <h1 className={`${born2b.className} text-8xl text-center text-white leading-20 `}>Mind Installers <br />Hackathon 3.O</h1>
+                    <div className="rotate-45 ">
+                        <Image
+                            src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
+                            height={100}
+                            width={100}
+                            alt='logo'
+                        />
                     </div>
                 </div>
 
-                <div className="flex justify-center items-center gap-10 mt-10 border-b pb-5 border-b-gray-400">
-                    <div className={`${greatVibes.className} text-4xl pt-14 relative w-[35%] border-r border-r-gray-400`}>
-                        <div className="flex justify-center items-center ">
-                            <div className=" relative bottom-5 ">
-                                <Image
-                                    src="https://cdn-icons-png.flaticon.com/128/12712/12712504.png"
-                                    height={100}
-                                    width={100}
-                                    alt='logo'
-                                />
-                            </div>
-                            <h1 className={`${greatVibes.className} text-7xl text-center text-white relative right-10 `}>Rules & Guidlines</h1>
-                            {/* <div className="rotate-45 ">
-                            <Image
-                                src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
-                                height={100}
-                                width={100}
-                                alt='logo'
-                            />
-                        </div> */}
-                        </div>
+
+                <div className="flex flex-col lg:flex-row justify-center items-center gap-5 mt-10 border-b pb-5 border-b-gray-400">
+                    <div className={`${greatVibes.className} text-4xl pt-14 relative max-w-[100%] lg:max-w-[35%] border-r border-r-gray-400`}>
+
+                        <h1 className={`${greatVibes.className} text-7xl text-center text-white pr-10`}>Rules & <br />Guidlines</h1>
+
                     </div>
 
-                    <div className={`${born2b.className}  w-[60%]`}>
+                    <div className={`${born2b.className} max-w-[100%]  lg:max-w-[60%]`}>
                         <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl'>
                             <h1 className="text-4xl text-white">1. General Rules :</h1>
                             <div className="pl-5 text-gray-300 text-2xl">
@@ -79,9 +63,9 @@ const Rules = () => {
                 </div>
 
 
-                <div className={`${born2b.className} flex justify-center items-center gap-5 mt-10 `}>
+                <div className={`${born2b.className} flex flex-col lg:flex-row justify-center items-center gap-5 mt-5 lg:mt-10 `}>
 
-                    <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl w-[50%] min-h-[26rem]'>
+                    <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:max-w-[50%] min-h-[26rem]'>
                         <h1 className="text-4xl text-white">2. Project Submission :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
                             <div className="">
@@ -109,7 +93,7 @@ const Rules = () => {
                     </div>
 
 
-                    <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl w-[50%] min-h-[26rem]'>
+                    <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:max-w-[50%] min-h-[26rem]'>
                         <h1 className="text-4xl text-white">3. Evaluation Criteria :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
                             <div className="flex gap-5">•
@@ -135,24 +119,18 @@ const Rules = () => {
 
 
                 {/* ************ */}
-                <div className={`${born2b.className} flex justify-center items-center gap-5 mt-5 `}>
+                <div className={`${born2b.className} flex flex-col lg:flex-row justify-center items-center gap-5 mt-5 lg:mt-10 `}>
 
-                    <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl w-[50%] min-h-[20rem]'>
-                        <h1 className="text-4xl text-white">4. Conduct & Ethics :</h1>
+                    <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:max-w-[50%] min-h-[20rem]'>
+                        <h1 className="text-4xl text-white">2. Project Submission :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
-                            <div className="">
-                                <div className="flex gap-5">•
-                                    <p className="">Teams must ensure originality—no plagiarism or use of pre-existing projects.
-                                    </p>
-                                </div>
-                                {/* <div className="flex flex-col text-xl ml-10">
-                                    <li>Problem statement</li>
-                                    <li>Proposed solution</li>
-                                    <li>Technology stack</li>
-                                    <li>Implementation approach</li>
-                                    <li>Expected impact</li>
-                                </div> */}
+
+                            <div className="flex gap-5">•
+                                <p className="">Teams must ensure originality—no plagiarism or use of pre-existing projects.
+                                </p>
                             </div>
+
+
                             <div className="flex gap-5">•
                                 <p className="">AI-generated or automated submissions without actual development are not allowed.
                                 </p>
@@ -165,8 +143,8 @@ const Rules = () => {
                     </div>
 
 
-                    <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl w-[50%] min-h-[20rem]'>
-                        <h1 className="text-4xl text-white">5. Communication & Deadlines :</h1>
+                    <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:max-w-[50%]  min-h-[20rem]'>
+                        <h1 className="text-4xl text-white">3. Evaluation Criteria :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
                             <div className="flex gap-5">•
                                 <p className="">All communication will be done via the official hackathon Email channel.
@@ -180,6 +158,7 @@ const Rules = () => {
                                 <p className="">The top-performing teams will be shortlisted for the final offline round.
                                 </p>
                             </div>
+
                         </div>
                     </div>
                 </div>

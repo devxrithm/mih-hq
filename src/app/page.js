@@ -13,14 +13,16 @@ import Pateron from "./components/Pateron";
 export default function Home() {
   return (
     <>
-      <Header />
-      <About />
-      <Track/>
-      <Rules/>
-      {/* <Versions/> */}
-      <Sponsor/>
-      <Pateron/>
-      {/* <TimelineDemo/> */}
+      <div className="relative bg-[rgb(236,236,221)] z-0 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[url('/bg2.jpg')] before:bg-no-repeat before:bg-center before:bg-cover before:bg-fixed before:brightness-[30%] before:-z-10">
+        <Header />
+        <About />
+        <Track />
+        <Rules />
+        {/* <Versions/> */}
+        <Sponsor />
+        <Pateron />
+        {/* <TimelineDemo/> */}
+      </div>
     </>
   );
 }

@@ -1,24 +1,4 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-body {
-    background-color: rgb(236, 236, 221);
-    position: relative;
-    z-index: 0;
-}
 
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("/bg2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    filter: brightness(30%); /* Adjust brightness */
-    z-index: -1;
-}

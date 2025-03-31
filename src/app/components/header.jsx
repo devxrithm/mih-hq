@@ -26,7 +26,7 @@ const Header = () => {
             {/* *************MAIN TEXT HEADING*************** */}
             <div className="relative z-20 flex items-center justify-center flex-col text-white gap-8">
                 <div className="flex">
-                    <div className="rotate-237 relative top-20">
+                    <div className="rotate-237 relative top-20 hidden lg:block">
                         <Image
                             src="/weapon.png"
                             height={120}
@@ -34,10 +34,10 @@ const Header = () => {
                             alt='logo'
                         />
                     </div>
-                    <h1 className={`${born2b.className} drop-shadow-2xl  text-[9rem] leading-24 text-center font-bold mt-6`}>
+                    <h1 className={`${born2b.className} drop-shadow-2xl  text-5xl lg:text-[9rem] leading-24 text-center font-bold mt-6`}>
                         MIND INSTALLERS <br />HACKATHON <span className='text-orange-500'>3.O</span>
                     </h1>
-                    <div className="rotate-54 relative top-26">
+                    <div className="rotate-54 relative top-26 hidden lg:block">
                         <Image
                             src="/weapon.png"
                             height={120}

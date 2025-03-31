@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Sponsor = () => {
     return (
         <>
-            <div className={`${greatVibes.className} h-[63rem] backdrop-blur-md mx-5 mt-5 px-10 rounded-3xl `} id="version">
+            <div className={`${greatVibes.className} h-auto backdrop-blur-md mx-5 mt-5 px-10 rounded-3xl `} id="version">
                 <div className={`${greatVibes.className} pt-8 mx-52 `}>
                     <div className="flex justify-center items-center gap-10">
                         <div className="rotate-225 ">
@@ -30,64 +30,65 @@ const Sponsor = () => {
 
                 <div className="flex justify-center items-center gap-0 mt-20">
 
-                    <div className="relative flex justify-center items-center">
-                        <Image
-                            src="/par2.png"
-                            height={500}
-                            width={500}
-                            alt='logo'
-                        />
-                        <div className={`${born2b.className} absolute -top-10 left-8 text-center `}>
+                    <div className="flex justify-center items-center">
+                    <div className="relative">
                             <Image
-                                src="/pw.png"
-                                height={300}
-                                width={300}
-                                alt='logo'
+                                src="/par2.png"
+                                height={350}
+                                width={350}
+                                alt="logo"
+                                className="w-full h-full object-cover"
                             />
-                            {/* <h1 className='text-6xl'>Round 1</h1>
-                            <p className="text-4xl ">(Online)</p>
-                            <p className="text-5xl">26 April</p> */}
+                            <div className={`${born2b.className} absolute inset-5 right-10 flex items-center justify-center text-center bottom-5`}>
+                                <Image
+                                    src="/pw.png"
+                                    height={250}
+                                    width={250}
+                                    alt='logo'
+                                />
+                            </div>
                         </div>
                     </div>
 
                     <div className="relative flex justify-center items-center bottom-10">
-                        <Image
-                            src="/par.jpg"
-                            height={620}
-                            width={620}
-                            alt='logo'
-                        />
-                        <div className={`${born2b.className} absolute -top-10 left-[4.5rem] text-center `}>
+                    <div className="relative">
                             <Image
-                                src="/pw.png"
-                                height={300}
-                                width={300}
-                                alt='logo'
+                                src="/par.jpg"
+                                height={400}
+                                width={400}
+                                alt="logo"
+                                className=" object-cover"
                             />
-                            {/* <h1 className='text-6xl'>Round 1</h1>
-                            <p className="text-4xl ">(Online)</p>
-                            <p className="text-5xl">26 April</p> */}
+                            <div className={`${born2b.className} absolute inset-5 right-10 flex items-center justify-center text-center bottom-5`}>
+                                <Image
+                                    src="/pw.png"
+                                    height={250}
+                                    width={250}
+                                    alt='logo'
+                                />
+                            </div>
                         </div>
                     </div>
 
-                    <div className="relative flex justify-center items-center">
-                        <Image
-                            src="/par2.png"
-                            height={500}
-                            width={500}
-                            alt='logo'
-                        />
-                        <div className={`${born2b.className} absolute -top-10 left-8 text-center `}>
+                    <div className="flex justify-center items-center">
+                        <div className="relative">
                             <Image
-                                src="/pw.png"
-                                height={300}
-                                width={300}
-                                alt='logo'
+                                src="/par2.png"
+                                height={350}
+                                width={350}
+                                alt="logo"
+                                className="w-full h-full object-cover"
                             />
-                            {/* <h1 className='text-6xl'>Round 1</h1>
-                            <p className="text-4xl ">(Online)</p>
-                            <p className="text-5xl">26 April</p> */}
+                            <div className={`${born2b.className} absolute inset-5 right-10 flex items-center justify-center text-center bottom-5`}>
+                                <Image
+                                    src="/pw.png"
+                                    height={250}
+                                    width={250}
+                                    alt='logo'
+                                />
+                            </div>
                         </div>
+
                     </div>
                 </div>
 
@@ -95,39 +96,38 @@ const Sponsor = () => {
 
                 <div className="">
                     <div className="flex justify-center">
-                        <div className="relative ">
+                        <div className="relative">
                             <Image
                                 src="/refreshment.jpg"
-                                height={650}
-                                width={650}
-                                alt='logo'
+                                height={350}
+                                width={350}
+                                alt="logo"
+                                className="w-full h-full object-cover"
                             />
-                            <div className={`${born2b.className} absolute top-12 left-36 text-center `}>
-                                <h1 className='text-5xl leading-10'>Refreshment Partner</h1>
-                                {/* <p className="text-4xl ">(Online)</p>
-                                <p className="text-5xl">26 April</p> */}
+                            <div className={`${born2b.className} absolute inset-0 flex items-center justify-center text-center bottom-5`}>
+                                <h1 className="text-3xl drop-shadow-lg">Refreshment Partner</h1>
                             </div>
                         </div>
-
                     </div>
 
-                    <div className="relative flex justify-center items-center">
-                        <Image
-                            src="/par2.png"
-                            height={400}
-                            width={400}
-                            alt='logo'
-                        />
-                        <div className={`${born2b.className} absolute top-2 left-[30rem] flex justify-center text-center `}>
+
+                    <div className="flex justify-center items-center">
+                        <div className="relative">
                             <Image
-                                src="/pw.png"
-                                height={250}
-                                width={250}
-                                alt='logo'
+                                src="/par2.png"
+                                height={350}
+                                width={350}
+                                alt="logo"
+                                className="w-full h-full object-cover"
                             />
-                            {/* <h1 className='text-6xl'>Round 1</h1>
-                            <p className="text-4xl ">(Online)</p>
-                            <p className="text-5xl">26 April</p> */}
+                            <div className={`${born2b.className} absolute inset-5 right-10 flex items-center justify-center text-center bottom-5`}>
+                                <Image
+                                    src="/pw.png"
+                                    height={250}
+                                    width={250}
+                                    alt='logo'
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
