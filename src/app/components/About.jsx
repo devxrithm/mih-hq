@@ -6,25 +6,29 @@ import Box from '../utils/Box'
 const About = () => {
     return (
         <>
-            <div id="about" className="min-h-auto px-14 py-12 mx-5 bg-transparent backdrop-blur-sm mb-10 text-white rounded-3xl ">
+            <div id="about" className="min-h-auto px-5 lg:px-14 py-10 mx-1 lg:mx-5 bg-transparent backdrop-blur-sm text-white rounded-3xl mt-5">
                 <div className="flex justify-center items-center gap-5  ">
-                    <Image
-                        src="https://cdn-icons-png.flaticon.com/128/15621/15621476.png"
-                        height={80}
-                        width={80}
-                        alt='logo'
-                    />
-                    <h1 className={`${greatVibes.className} text-8xl text-center`}>About <span className="text-orange-600">MIH</span> </h1>
-                    <Image
-                        src="https://cdn-icons-png.flaticon.com/128/8583/8583878.png"
-                        height={80}
-                        width={80}
-                        alt='logo'
-                    />
+                    <div className="hidden lg:block ">
+                        <Image
+                            src="https://cdn-icons-png.flaticon.com/128/15621/15621476.png"
+                            height={80}
+                            width={80}
+                            alt='logo'
+                        />
+                    </div>
+                    <h1 className={`${greatVibes.className} text-6xl lg:text-8xl text-center`}>About <span className="text-orange-600">MIH</span> </h1>
+                    <div className="hidden lg:block ">
+                        <Image
+                            src="https://cdn-icons-png.flaticon.com/128/8583/8583878.png"
+                            height={80}
+                            width={80}
+                            alt='logo'
+                        />
+                    </div>
                 </div>
 
                 <div className="flex justify-center items-center mt-5">
-                    <h1 className={`${greatVibes.className} text-center text-3xl mx-14`}>The Mind Installers Hackathon is back with its 3rd edition, bringing together some of the brightest tech minds from all over the country for an exciting competition!</h1>
+                    <h1 className={`${born2b.className} text-center leading-5 lg:leading-10 text-xl lg:text-3xl lg:mx-14`}>The Mind Installers Hackathon is back with its 3rd edition, bringing together some of the brightest tech minds from all over the country for an exciting competition!</h1>
                 </div>
 
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-5 mt-10">

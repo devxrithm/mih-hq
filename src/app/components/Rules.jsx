@@ -8,8 +8,8 @@ const Rules = () => {
             <div className={`${greatVibes.className} min-h-[90rem] backdrop-blur-md mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl `}>
 
 
-                <div className={`${greatVibes.className} pt-8  flex  justify-center items-center gap-8`}>
-                    <div className="rotate-225 ">
+                <div className={`${greatVibes.className} pt-8  flex  justify-center items-center gap-8 `}>
+                    <div className="rotate-225 hidden lg:block ">
                         <Image
                             src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
                             height={100}
@@ -17,8 +17,8 @@ const Rules = () => {
                             alt='logo'
                         />
                     </div>
-                    <h1 className={`${born2b.className} text-8xl text-center text-white leading-20 `}>Mind Installers <br />Hackathon 3.O</h1>
-                    <div className="rotate-45 ">
+                    <h1 className={`${born2b.className} hidden lg:block text-5xl lg:text-8xl text-center text-white leading-20 `}>Mind Installers <br />Hackathon 3.O</h1>
+                    <div className="rotate-45 hidden lg:block ">
                         <Image
                             src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
                             height={100}
@@ -29,10 +29,10 @@ const Rules = () => {
                 </div>
 
 
-                <div className="flex flex-col lg:flex-row justify-center items-center gap-5 mt-10 border-b pb-5 border-b-gray-400">
-                    <div className={`${greatVibes.className} text-4xl pt-14 relative max-w-[100%] lg:max-w-[35%] border-r border-r-gray-400`}>
+                <div className="flex flex-col lg:flex-row justify-center items-center gap-5 lg:mt-10 lg:border-b pb-5 border-b-gray-400">
+                    <div className={`${greatVibes.className} text-4xl pt-14 relative max-w-[100%] lg:max-w-[35%] lg:border-r border-r-gray-400`}>
 
-                        <h1 className={`${greatVibes.className} text-7xl text-center text-white pr-10`}>Rules & <br />Guidlines</h1>
+                        <h1 className={`${greatVibes.className} text-7xl text-center text-white lg:pr-10`}>Rules & <br />Guidlines</h1>
 
                     </div>
 
