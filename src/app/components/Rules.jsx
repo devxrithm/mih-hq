@@ -36,7 +36,7 @@ const Rules = () => {
 
                     </div>
 
-                    <div className={`${born2b.className} max-w-[100%]  lg:max-w-[60%]`}>
+                    <div className={`${born2b.className} max-w-[100%]  lg:max-w-[100%]`}>
                         <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl'>
                             <h1 className="text-4xl text-white">1. General Rules :</h1>
                             <div className="pl-5 text-gray-300 text-2xl">
@@ -65,7 +65,7 @@ const Rules = () => {
 
                 <div className={`${born2b.className} flex flex-col lg:flex-row justify-center items-center gap-5 mt-5 lg:mt-10 `}>
 
-                    <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:max-w-[50%] min-h-[26rem]'>
+                    <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:max-w-[100%] min-h-[26rem]'>
                         <h1 className="text-4xl text-white">2. Project Submission :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
                             <div className="">

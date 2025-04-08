@@ -42,7 +42,7 @@ const Track = () => {
                                 alt="logo"
                                 className="w-80 lg:w-full h-full object-cover"
                             />
-                            <div className={`${born2b.className} absolute inset-5 flex flex-col items-center justify-center text-center left-12`}>
+                            <div className={`${born2b.className} text-black absolute inset-5 flex flex-col items-center justify-center text-center left-12`}>
                                 <h1 className="text-5xl lg:text-6xl">Round 1</h1>
                                 <p className="text-3xl lg:text-4xl">(Online)</p>
                                 <p className="text-4xl lg:text-5xl">26 April</p>
@@ -63,12 +63,12 @@ const Track = () => {
                         <div className="relative">
                             <Image
                                 src="/tracktime.jpg"
-                                height={800}
-                                width={800}
+                                height={850}
+                                width={850}
                                 alt="logo"
-                                className="w-80 lg:w-full h-full object-cover"
+                                className="w-96 lg:w-full h-full object-cover"
                             />
-                            <div className={`${born2b.className} absolute inset-5 flex flex-col items-center justify-center text-center left-12`}>
+                            <div className={`${born2b.className} text-black absolute inset-5 flex flex-col items-center justify-center text-center left-12`}>
                                 <h1 className='text-5xl lg:text-6xl'>Finale</h1>
                                 <p className="text-3xl lg:text-4xl ">(Offline)</p>
                                 <p className="text-4xl lg:text-5xl">1 - 2 May</p>

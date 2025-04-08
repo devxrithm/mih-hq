@@ -35,7 +35,7 @@ const Footer = () => {
                         <div>
                             <h1 className="text-3xl text-gray-400">Contact Us</h1>
                         </div>
-                        <div className={`${born2b.className} text-2xl `}>
+                        <div className={`${born2b.className} text-2xl flex flex-col gap-3`}>
                             <div className="flex items-center gap-3 ">
                                 <Image
                                     src="https://cdn-icons-png.flaticon.com/128/4213/4213179.png"

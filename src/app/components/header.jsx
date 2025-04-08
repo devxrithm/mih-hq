@@ -4,6 +4,7 @@ import { greatVibes, born2b } from '../../../styles/font'
 import Navbar from '../utils/Navbar'
 import Counter from '../utils/Counter'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const EXPIRY_TIME_KEY = "hackathon_countdown_expiry";
 
@@ -26,7 +27,7 @@ const Header = () => {
     }, []);
 
     if (!expiryTime) return null;
-     // Prevents Counter from rendering until expiryTime is set
+    // Prevents Counter from rendering until expiryTime is set
 
     return (
         <div className="relative h-auto">
@@ -52,7 +53,9 @@ const Header = () => {
             <Counter expiryTimestamp={expiryTime} autoStart={false} />
 
             <div className="flex justify-center items-center text-2xl text-white relative mt-8 lg:mt-10 hover:scale-95">
-                <button className={`${greatVibes.className} px-7 py-3 bg-orange-500 rounded-3xl`}>Register Now</button>
+                <Link href="https://unstop.com/hackathons/mind-installers-hackathon-3o-iimt-college-of-engineering-iimt-coe-greater-noida-1454209">
+                    <button className={`${greatVibes.className} cursor-pointer transition px-7 py-3 bg-orange-500 rounded-3xl`}>Register Now</button>
+                </Link>
             </div>
         </div>
     );
