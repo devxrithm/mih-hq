@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Rules = () => {
     return (
         <>
-            <div className={`${greatVibes.className} min-h-[90rem] backdrop-blur-md mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl `}>
+            <div className={`${greatVibes.className} min-h-[90rem] backdrop-blur-md mx-2 lg:mx-5 mt-5 py-5 px-1 lg:px-10 rounded-3xl `}>
 
 
                 <div className={`${greatVibes.className} pt-8  flex  justify-center items-center gap-8 `}>
@@ -30,13 +30,13 @@ const Rules = () => {
 
 
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-5 lg:mt-10 lg:border-b pb-5 border-b-gray-400">
-                    <div className={`${greatVibes.className} text-4xl pt-14 relative max-w-[100%] lg:max-w-[35%] lg:border-r border-r-gray-400`}>
+                    <div className={`${greatVibes.className} text-4xl pt-14 relative max-w-[100%] lg:min-w-[30%] lg:border-r border-r-gray-400`}>
 
                         <h1 className={`${greatVibes.className} text-7xl text-center text-white lg:pr-10`}>Rules & <br />Guidlines</h1>
 
                     </div>
 
-                    <div className={`${born2b.className} max-w-[100%]  lg:max-w-[100%]`}>
+                    <div className={`${born2b.className} max-w-[100%]  lg:min-w-[70%]`}>
                         <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl'>
                             <h1 className="text-4xl text-white">1. General Rules :</h1>
                             <div className="pl-5 text-gray-300 text-2xl">
@@ -65,7 +65,7 @@ const Rules = () => {
 
                 <div className={`${born2b.className} flex flex-col lg:flex-row justify-center items-center gap-5 mt-5 lg:mt-10 `}>
 
-                    <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:max-w-[100%] min-h-[26rem]'>
+                    <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%] min-h-[26rem]'>
                         <h1 className="text-4xl text-white">2. Project Submission :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
                             <div className="">
@@ -93,7 +93,7 @@ const Rules = () => {
                     </div>
 
 
-                    <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:max-w-[50%] min-h-[26rem]'>
+                    <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%] min-h-[26rem]'>
                         <h1 className="text-4xl text-white">3. Evaluation Criteria :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
                             <div className="flex gap-5">•
@@ -121,7 +121,7 @@ const Rules = () => {
                 {/* ************ */}
                 <div className={`${born2b.className} flex flex-col lg:flex-row justify-center items-center gap-5 mt-5 lg:mt-10 `}>
 
-                    <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:max-w-[50%] min-h-[20rem]'>
+                    <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%] min-h-[20rem]'>
                         <h1 className="text-4xl text-white">2. Project Submission :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
 
@@ -143,7 +143,7 @@ const Rules = () => {
                     </div>
 
 
-                    <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:max-w-[50%]  min-h-[20rem]'>
+                    <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%]  min-h-[20rem]'>
                         <h1 className="text-4xl text-white">3. Evaluation Criteria :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
                             <div className="flex gap-5">•
