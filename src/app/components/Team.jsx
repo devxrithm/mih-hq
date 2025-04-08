@@ -23,7 +23,7 @@ const Team = () => {
                                                     width={100}
                                                     alt='logo'
                                                 /> */}
-            </div>
+            </div> 
           </div>
         </div>
       </div>
