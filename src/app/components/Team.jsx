@@ -97,7 +97,7 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
-                />
+                /> 
               </Link>
             </div>
             <div className="border min-w-96 p-14 rounded-3xl  flex flex-col gap-5 justify-center items-center">
