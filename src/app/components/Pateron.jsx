@@ -28,11 +28,11 @@ const Pateron = () => {
         </div>
         <div className="flex mt-16 justify-center items-center gap-20">
           <div className="border rounded-3xl p-10 border-gray-400">
-            <h1 className="text-5xl text-center">Dr. Ankur Jauhari</h1>
+            <h1 className="text-4xl text-center">Prof.(Dr) Ankur Jauhari</h1>
             <p className="text-center text-2xl text-gray-300">Director General (Academics)</p>
           </div>
           <div className="border rounded-3xl p-10 border-gray-400">
-            <h1 className="text-5xl text-center">Dr. Chetan Khemraj</h1>
+            <h1 className="text-4xl text-center">Prof.(Dr) Chetan Khemraj</h1>
             <p className="text-center text-2xl text-gray-300">Dy. Director (COE)</p>
           </div>
           <div className=""></div>

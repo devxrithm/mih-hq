@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Sponsor = () => {
     return (
         <>
-            <div className={`${greatVibes.className} h-auto backdrop-blur-md mx-1 lg:mx-5 mt-5 lg:px-10 rounded-3xl `} id="version">
+            <div id="sponsor" className={`${greatVibes.className} h-auto backdrop-blur-md mx-1 lg:mx-5 mt-5 lg:px-10 rounded-3xl `} >
                 <div className={`${greatVibes.className} pt-8 mx-0 lg:mx-52`}>
                     <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
                         <div className="rotate-225 hidden lg:block">

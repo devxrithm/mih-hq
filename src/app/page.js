@@ -17,6 +17,7 @@ import Prizes from './components/Prizes';
 import Coordinator from './components/Coordinator';
 import Communit from './components/Communit';
 import Chief from './components/Chief';
+import Supported from './components/Supported';
 
 
 export default function Home() {
@@ -41,6 +42,7 @@ export default function Home() {
         <Pateron /> 
         <Convenor/> 
         <Coordinator/>
+        <Supported/>
         <Team/>
         <Communit/>
         <Contact/>

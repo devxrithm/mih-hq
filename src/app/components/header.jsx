@@ -6,28 +6,11 @@ import Counter from '../utils/Counter'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const EXPIRY_TIME_KEY = "hackathon_countdown_expiry";
+
 
 const Header = () => {
-    const [expiryTime, setExpiryTime] = useState(null);
 
-    useEffect(() => {
-        let storedExpiry = localStorage.getItem(EXPIRY_TIME_KEY);
 
-        if (storedExpiry) {
-            storedExpiry = new Date(storedExpiry);
-        } else {
-            const newExpiry = new Date();
-            newExpiry.setSeconds(newExpiry.getSeconds() + 1500000);
-            localStorage.setItem(EXPIRY_TIME_KEY, newExpiry);
-            storedExpiry = newExpiry;
-        }
-
-        setExpiryTime(storedExpiry);
-    }, []);
-
-    if (!expiryTime) return null;
-    // Prevents Counter from rendering until expiryTime is set
 
     return (
         <div className="relative h-auto">
@@ -57,7 +40,7 @@ const Header = () => {
                 </h2>
             </div>
 
-            <Counter expiryTimestamp={expiryTime} autoStart={false} />
+            <Counter/>
 
             <div className="flex justify-center items-center text-2xl text-white relative mt-8 lg:mt-10 hover:scale-95">
                 <Link href="https://unstop.com/hackathons/mind-installers-hackathon-3o-iimt-college-of-engineering-iimt-coe-greater-noida-1454209">
