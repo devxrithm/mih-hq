@@ -13,7 +13,7 @@ const About = () => {
                             src="https://cdn-icons-png.flaticon.com/128/15621/15621476.png"
                             height={80}
                             width={80}
-                            alt='logo'
+                            alt='logo1'
                         />
                     </div>
                     <h1 className={`${greatVibes.className} text-6xl lg:text-8xl text-center`}>About <span className="text-orange-600">MIH</span> </h1>

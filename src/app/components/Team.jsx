@@ -54,7 +54,7 @@ const Team = () => {
                   <Image
                     src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"
                     height={30}
-                    width={30}
+                    width={30} 
                     alt='logo'
                     className='text-center'
                   />
