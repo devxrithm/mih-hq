@@ -17,7 +17,7 @@ const Navbar = () => {
                         <Link href="#track">
                             <li>Timeline</li>
                         </Link>
-                        <li>Schedule</li>
+                        <li>Rules</li>
                         <li>Prizes</li>
                         <li></li>
                     </ul>

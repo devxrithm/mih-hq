@@ -26,17 +26,12 @@ const Pateron = () => {
             </div>
           </div>
         </div>
-        <div className="flex lg:flex-row flex-col mt-16 justify-center items-center gap-20">
+        <div className="flex lg:flex-row flex-col mt-16 justify-center items-center ">
           <div className="border rounded-3xl p-10 border-gray-400">
             <h1 className="text-4xl text-center">Prof.(Dr) Seema Nayak </h1>
             <p className="text-center text-2xl text-gray-300">Dean IQAC</p>
             <p className="text-center text-2xl text-gray-300">IIMT college of engineering, Greater Noida</p>
-          </div>
-          <div className="border rounded-3xl p-10 border-gray-400">
-            <h1 className="text-4xl text-center">Prof. Pankaj Jha </h1>
-            <p className="text-center text-2xl text-gray-300">HOD ECE</p>
-            <p className="text-center text-2xl text-gray-300">IIMT college of engineering, Greater Noida</p>
-          </div>
+          </div>  
           <div className=""></div>
         </div>
       </div>

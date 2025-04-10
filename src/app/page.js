@@ -13,6 +13,8 @@ import Team from "./components/Team";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Convenor from './components/Convenor';
+import Prizes from './components/Prizes';
+import Coordinator from './components/Coordinator';
 
 
 export default function Home() {
@@ -31,9 +33,11 @@ export default function Home() {
         <Track />
         <Rules />
         {/* <Versions/> */}
+        <Prizes/>
         <Sponsor />
         <Pateron /> 
         <Convenor/> 
+        <Coordinator/>
         <Team/>
         <Contact/>
         <Footer/>

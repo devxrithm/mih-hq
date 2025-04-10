@@ -15,7 +15,7 @@ const Pateron = () => {
                                             alt='logo'
                                         /> */}
             </div>
-            <h1 className={`${greatVibes.className} text-6xl lg:text-8xl text-center text-white`}>Patron </h1>
+            <h1 className={`${greatVibes.className} text-6xl lg:text-8xl text-center text-white`}>Patrons </h1>
             <div className="rotate-45 hidden lg:block ">
               {/* <Image
                                             src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
