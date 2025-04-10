@@ -18,7 +18,10 @@ const Navbar = () => {
                             <li>Timeline</li>
                         </Link>
                         <li>Rules</li>
-                        <li>Prizes</li>
+
+                        <Link href="#prizes">
+                            <li>Prizes</li>
+                        </Link>
                         <li></li>
                     </ul>
                 </div>
