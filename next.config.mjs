@@ -26,6 +26,10 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: "cdn.universitykart.com",
             },
+            {
+                protocol: 'https',
+                hostname: "res.cloudinary.com",
+            },
         ],
     },
 };

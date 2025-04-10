@@ -15,6 +15,7 @@ import Contact from "./components/Contact";
 import Convenor from './components/Convenor';
 import Prizes from './components/Prizes';
 import Coordinator from './components/Coordinator';
+import Communit from './components/Communit';
 
 
 export default function Home() {
@@ -39,6 +40,7 @@ export default function Home() {
         <Convenor/> 
         <Coordinator/>
         <Team/>
+        <Communit/>
         <Contact/>
         <Footer/>
       </div>
