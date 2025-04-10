@@ -31,9 +31,10 @@ const Communit = () => {
                 <div className="flex justify-center items-center gap-10">
                     <Image
                         src="https://res.cloudinary.com/startup-grind/image/fetch/c_scale,w_2560/c_crop,h_650,w_2560,y_0.48_mul_h_sub_0.48_mul_650/c_crop,h_650,w_2560/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/https://res.cloudinary.com/startup-grind/image/upload/c_fill%2Cdpr_2.0%2Cf_auto%2Cg_center%2Cq_auto:good/v1/gcs/platform-data-goog/chapter_banners/GDSC%2520Header_20240920_220019_0000_page-0001_xvOEpUl.jpg"
-                        width={200}
-                        height={200}
+                        width={500}
+                        height={500}
                         alt='iimt'
+                        className='rounded-xl'
                     />
                     <Image
                         src="/logo SN.png"

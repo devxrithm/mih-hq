@@ -16,6 +16,7 @@ import Convenor from './components/Convenor';
 import Prizes from './components/Prizes';
 import Coordinator from './components/Coordinator';
 import Communit from './components/Communit';
+import Chief from './components/Chief';
 
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
         {/* <Versions/> */}
         <Prizes/>
         <Sponsor />
+        <Chief/>
         <Pateron /> 
         <Convenor/> 
         <Coordinator/>
