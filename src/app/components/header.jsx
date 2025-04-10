@@ -18,7 +18,7 @@ const Header = () => {
             storedExpiry = new Date(storedExpiry);
         } else {
             const newExpiry = new Date();
-            newExpiry.setSeconds(newExpiry.getSeconds() + 2300000);
+            newExpiry.setSeconds(newExpiry.getSeconds() + 1500000);
             localStorage.setItem(EXPIRY_TIME_KEY, newExpiry);
             storedExpiry = newExpiry;
         }
@@ -33,15 +33,22 @@ const Header = () => {
         <div className="relative h-auto">
             <Navbar />
 
-            <div className="relative z-20 flex items-center justify-center flex-col text-white gap-8">
-                <div className="flex">
+            <div className="relative z-20 flex items-center justify-center flex-col text-white gap-5">
+                <Image
+                src="https://cdn.universitykart.com//Content/upload/admin/k0tevuvr.1k4.png"
+                width={220}
+                height={220}
+                alt='logo'
+                className='mt-10 text-center mr-16 rounded-xl'
+                />
+                <div className="flex ">
                     <div className="rotate-237 relative top-20 hidden lg:block">
                         <Image src="/weapon.png" height={120} width={120} alt="logo" />
                     </div>
                     <h1 className={`${born2b.className} drop-shadow-2xl text-6xl lg:text-[9rem] leading-12 lg:leading-24 text-center font-bold mt-6`}>
                         MIND INSTALLERS <br />HACKATHON <span className="text-orange-500">3.O</span>
                     </h1>
-                    <div className="rotate-54 relative top-26 hidden lg:block">
+                    <div className="rotate-54 relative top-20 hidden lg:block">
                         <Image src="/weapon.png" height={120} width={120} alt="logo" />
                     </div>
                 </div>

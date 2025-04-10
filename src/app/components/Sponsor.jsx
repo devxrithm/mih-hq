@@ -39,13 +39,13 @@ const Sponsor = () => {
                                 alt="logo"
                                 className="w-full h-full object-cover"
                             />
-                            <div className={`${born2b.className} absolute inset-5 right-10 flex items-center justify-center text-center lg:bottom-5`}>
+                            <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center lg:bottom-5`}>
                                 <Image
-                                    src="/pw.png"
-                                    height={250}
-                                    width={250}
+                                    src="/levrage.png"
+                                    height={220}
+                                    width={220}
                                     alt='logo'
-                                    className="w-40 h-auto lg:w-auto object-cover"
+                                    className="w-44 h-auto object-cover"
                                 />
                             </div>
                         </div>
@@ -63,10 +63,10 @@ const Sponsor = () => {
                             <div className={`${born2b.className} absolute inset-5 right-10 flex items-center justify-center text-center bottom-5`}>
                                 <Image
                                     src="/pw.png"
-                                    height={250}
-                                    width={250}
+                                    height={300}
+                                    width={500}
                                     alt='logo'
-                                    className="w-40 h-auto lg:w-auto object-cover"
+                                    className="w-72 h-auto object-cover"
                                 />
                             </div>
                         </div>
@@ -81,13 +81,13 @@ const Sponsor = () => {
                                 alt="logo"
                                 className="w-full h-full object-cover"
                             />
-                            <div className={`${born2b.className} absolute inset-5 right-10 flex items-center justify-center text-center bottom-5`}>
+                            <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center bottom-5`}>
                                 <Image
-                                    src="/pw.png"
-                                    height={250}
-                                    width={250}
+                                    src="/ox.jpeg"
+                                    height={220}
+                                    width={220}
                                     alt='logo'
-                                    className="w-40 h-auto lg:w-auto object-cover"
+                                    className="w-40 h-auto object-cover rounded-2xl"
                                 />
                             </div>
                         </div>
@@ -95,6 +95,46 @@ const Sponsor = () => {
                     </div>
                 </div>
 
+                {/* ****************Swag Partner***************? */}
+
+                <div className="">
+                    {/* <div className="flex justify-center">
+                        <div className="relative">
+                            <Image
+                                src="/refreshment.jpg"
+                                height={350}
+                                width={350}
+                                alt="logo"
+                                className="w-64 h-auto lg:w-auto object-cover"
+                            />
+                            <div className={`${born2b.className} absolute inset-0 flex items-center justify-center text-center bottom-5`}>
+                                <h1 className="text-xl lg:text-3xl drop-shadow-lg">Refreshment Partner</h1>
+                            </div>
+                        </div>
+                    </div> */}
+
+
+                    <div className="flex justify-center items-center">
+                        <div className="relative">
+                            <Image
+                                src="/par2.png"
+                                height={350}
+                                width={350}
+                                alt="logo"
+                                className="w-full h-full object-cover"
+                            />
+                            <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center lg:bottom-5`}>
+                                <Image
+                                    src="/gfgtrans.png"
+                                    height={220}
+                                    width={220}
+                                    alt='logo'
+                                    className="w-52 h-auto object-cover"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {/* ********refreshment************** */}
 
                 <div className="">
@@ -118,17 +158,18 @@ const Sponsor = () => {
                         <div className="relative">
                             <Image
                                 src="/par2.png"
-                                height={350}
-                                width={350}
+                                height={320}
+                                width={320}
                                 alt="logo"
-                                className="w-full h-full object-cover"
+                                className=" object-cover"
                             />
-                            <div className={`${born2b.className} absolute inset-5 right-10 flex items-center justify-center text-center bottom-5`}>
+                            <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center bottom-5`}>
                                 <Image
-                                    src="/pw.png"
-                                    height={250}
-                                    width={250}
+                                    src="/bspark.jpg"
+                                    height={100}
+                                    width={100}
                                     alt='logo'
+                                   className=" object-cover rounded-2xl"
                                 />
                             </div>
                         </div>
