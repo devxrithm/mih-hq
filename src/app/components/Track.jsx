@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 const Track = () => {
     const timelineData = [
         {
-            date: "31 Mar 25",
+            date: "",
             title: "Project Ppt. Submission",
             description: "Submit your project presentation using the provided template from the 'Download Attachments' section on Unstop. Convert from PDF to PPTX to start working.",
             time: "11:12 PM IST - 24 Apr 25, 12:00 AM IST",
