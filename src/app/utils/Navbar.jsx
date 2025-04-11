@@ -85,7 +85,7 @@ const Navbar = () => {
                         <li>Timeline</li>
                     </ul>
                 </nav>
-                <div className="flex justify-center items-center lg:block hidden">
+                <div className="flex justify-center items-center lg:block">
                     
                     <div className="">
                         <Image

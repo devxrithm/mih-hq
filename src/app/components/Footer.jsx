@@ -54,6 +54,15 @@ const Footer = () => {
                                 />
                                 <p className="">+91 8826181378</p>
                             </div>
+                            <div className="flex items-center gap-3 ">
+                                <Image
+                                    src="https://cdn-icons-png.flaticon.com/128/4213/4213179.png"
+                                    height={25}
+                                    width={25}
+                                    alt='logo'
+                                />
+                                <p className="">+91 7902105161</p>
+                            </div>
                             <div className="flex items-center gap-3">
                                 <Image
                                     src="https://cdn-icons-png.flaticon.com/128/9068/9068642.png"
