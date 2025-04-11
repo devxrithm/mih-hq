@@ -17,13 +17,12 @@ const Header = () => {
             <Navbar />
 
             <div className="relative z-20 flex items-center justify-center flex-col text-white gap-5">
-                <Image
-                src="https://cdn.universitykart.com//Content/upload/admin/k0tevuvr.1k4.png"
-                width={220}
-                height={220}
-                alt='logo'
-                className='mt-10 text-center mr-16 rounded-xl'
-                />
+                 {/* <Image
+                            src="/mainLogo.png"
+                            height={200}
+                            width={200}
+                            alt='logo'
+                        />  */}
                 <div className="flex ">
                     <div className="rotate-237 relative top-20 hidden lg:block">
                         <Image src="/weapon.png" height={120} width={120} alt="logo" />

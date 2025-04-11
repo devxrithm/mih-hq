@@ -28,7 +28,7 @@ const Prizes = () => {
                     </div>
                 </div>
 
-                <div className="flex mt-16 justify-center items-center gap-20">
+                <div className="flex mt-16 justify-center items-center gap-20 lg:flex-row flex-col">
                     <div className="border rounded-3xl p-16 border-gray-400 flex justify-center items-center flex-col hover:scale-105">
 
                         <Image
