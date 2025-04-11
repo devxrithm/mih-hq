@@ -28,7 +28,7 @@ const Communit = () => {
                     </div>
                 </div>
 
-                <div className="flex justify-center items-center gap-10 ">
+                <div className="flex lg:flex-row flex-col justify-center items-center gap-10 ">
                     <Image
                         src="/gdg.png"
                         width={300}

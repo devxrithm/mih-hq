@@ -49,8 +49,8 @@ const Header = () => {
                 </Link>
             </div>
 
-            <div className="">
-                <p className="text-center">Registration deadline 23rd April</p>
+            <div className={`${born2b.className} mt-5`}>
+                <p className="text-center text-xl">🚨 Registration deadline 23rd April 🚨 </p>
             </div>
         </div>
     );
