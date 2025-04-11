@@ -41,7 +41,7 @@ const Rules = () => {
                             <h1 className="text-4xl text-white">1. General Rules :</h1>
                             <div className="pl-5 text-gray-300 text-2xl">
                                 <div className="flex gap-5">•
-                                    <p className="">The Hackathon is open to all eligible participants for college students.
+                                    <p className="">The Hackathon is open to all college students.
                                     </p>
                                 </div>
                                 <div className="flex gap-5">•
@@ -49,7 +49,7 @@ const Rules = () => {
                                     </p>
                                 </div>
                                 <div className="flex gap-5">•
-                                    <p className="">Each team must submit their project idea and implementation details within the given deadline(To be announced).
+                                    <p className="">Each team must submit their project idea and implementation details within the given deadline (Before Midnight, 24 April).
                                     </p>
                                 </div>
                                 <div className="flex gap-5">•
@@ -151,7 +151,7 @@ const Rules = () => {
                                 </p>
                             </div>
                             <div className="flex gap-5">•
-                                <p className="">Teams must submit their project before the submission deadline (to be announced)—late submissions will not be considered.
+                                <p className="">Teams must submit their project before the submission deadline (Before Midnight, 24 April) —late submissions will not be considered.
                                 </p>
                             </div>
                             <div className="flex gap-5">•

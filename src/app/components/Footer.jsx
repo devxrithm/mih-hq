@@ -70,7 +70,11 @@ const Footer = () => {
                                     width={25}
                                     alt='logo'
                                 />
-                                <p className="">iimthackathon_gn@iimtindia.net</p>
+                               <Link href="mailto:iimthackathon_gn@iimtindia.net">
+                                <p className="">
+                                        iimthackathon_gn@iimtindia.net
+                                </p>
+                                </Link>
                             </div>
                             <div className="flex items-center gap-3">
                                 <Image

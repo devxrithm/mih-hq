@@ -30,7 +30,7 @@ const Pateron = () => {
           <div className="border rounded-3xl p-10 border-gray-400">
             <h1 className="text-4xl text-center">Prof.(Dr) Seema Nayak </h1>
             <p className="text-center text-2xl text-gray-300">Dean IQAC</p>
-            <p className="text-center text-2xl text-gray-300">IIMT college of engineering, Greater Noida</p>
+            <p className="text-center text-2xl text-gray-300">IIMT College of Engineering</p>
           </div>  
           <div className=""></div>
         </div>

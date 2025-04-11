@@ -16,7 +16,7 @@ const Sponsor = () => {
                                 alt='logo'
                             />
                         </div>
-                        <h1 className={`${born2b.className} text-6xl lg:text-8xl text-center text-white leading-20`}>Our Sponsor</h1>
+                        <h1 className={`${born2b.className} text-6xl lg:text-8xl text-center text-white leading-20`}>Our Sponsors</h1>
                         <div className="rotate-45 hidden lg:block">
                             <Image
                                 src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
@@ -39,13 +39,13 @@ const Sponsor = () => {
                                 alt="logo"
                                 className="w-full h-full object-cover"
                             />
-                            <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center lg:bottom-5`}>
+                            <div className={`${born2b.className} absolute inset-5 right-8 flex items-center justify-center text-center lg:bottom-5`}>
                                 <Image
-                                    src="/levrage.png"
-                                    height={220}
-                                    width={220}
+                                    src="/pw.png"
+                                    height={380}
+                                    width={380}
                                     alt='logo'
-                                    className="w-44 h-auto object-cover"
+                                    className="w-52 h-auto object-cover"
                                 />
                             </div>
                         </div>
@@ -55,18 +55,18 @@ const Sponsor = () => {
                         <div className="relative">
                             <Image
                                 src="/par.jpg"
-                                height={370}
-                                width={370}
+                                height={220}
+                                width={220}
                                 alt="logo"
                                 className="w-96 lg:w-full lg:h-full object-cover"
                             />
-                            <div className={`${born2b.className} absolute inset-5 right-10 flex items-center justify-center text-center bottom-5`}>
+                            <div className={`${born2b.className} absolute inset-5 right-10 flex items-center justify-center text-center bottom-1`}>
                                 <Image
-                                    src="/pw.png"
+                                    src="/levrage.png"
                                     height={300}
-                                    width={500}
+                                    width={300}
                                     alt='logo'
-                                    className="w-72 h-auto object-cover"
+                                    className="w-44 h-auto object-cover"
                                 />
                             </div>
                         </div>
@@ -148,7 +148,7 @@ const Sponsor = () => {
                                 className="w-64 h-auto lg:w-auto object-cover"
                             />
                             <div className={`${born2b.className} absolute inset-0 flex items-center justify-center text-center bottom-5`}>
-                                <h1 className="text-xl lg:text-3xl drop-shadow-lg">Refreshment Partner</h1>
+                                <h1 className="text-xl lg:text-3xl drop-shadow-lg">Energy Drink Partner</h1>
                             </div>
                         </div>
                     </div>

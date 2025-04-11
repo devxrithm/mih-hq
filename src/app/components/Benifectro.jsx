@@ -31,7 +31,7 @@ const Benifectro = () => {
           <div className="border rounded-3xl p-10 border-gray-400">
             <h1 className="text-4xl text-center">Sarathi Gouda</h1>
             <p className={`${born2b.className} text-center text-2xl text-gray-300`}>Director - Training & Placement</p>
-            <p className="text-center text-2xl text-gray-300">IIMT Group Of Colleges, Greater Noida</p>
+            <p className="text-center text-2xl text-gray-300">IIMT Group Of Colleges</p>
           </div>
           <div className=""></div>
         </div>

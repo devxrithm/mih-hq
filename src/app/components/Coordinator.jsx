@@ -32,7 +32,7 @@ const Coordinator = () => {
             <div className="border rounded-3xl p-10 border-gray-400">
               <h1 className="text-4xl text-center">Dr. Pankaj Jha</h1>
               <p className={`${born2b.className} text-center text-2xl text-gray-300`}>HOD ECE and Head R&D</p>
-              <p className="text-center text-2xl text-gray-300">IIMT college of engineering, Greater Noida</p>
+              <p className="text-center text-2xl text-gray-300">IIMT College of Engineering</p>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ const Coordinator = () => {
             <div className="border rounded-3xl p-10 border-gray-400">
               <h1 className="text-4xl text-center">Dr. Nitin Waghmare</h1>
               <p className={`${born2b.className} text-center text-2xl text-gray-300`}>HOD ME</p>
-              <p className="text-center text-2xl text-gray-300">IIMT college of engineering, Greater Noida</p>
+              <p className="text-center text-2xl text-gray-300">IIMT College of Engineering</p>
             </div>
           </div>
 

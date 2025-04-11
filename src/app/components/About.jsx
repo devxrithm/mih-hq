@@ -34,23 +34,23 @@ const About = () => {
                 <div className="flex flex-col lg:flex-row justify-center items-center gap-5 mt-10">
                     <Box
                         imgUrl="https://cdn-icons-png.flaticon.com/128/17379/17379046.png"
-                        boxSec="36-Hour Coding Sprint"
-                        desc="Immerse yourself in an intense coding experience from Feb 28-Mar 1, 2025"
+                        boxSec="30-Hour Coding Sprint"
+                        desc="Immerse yourself in an intense coding experience from May 1st to May 2nd, 2025"
                     />
                     <Box
                         imgUrl="https://cdn-icons-png.flaticon.com/128/923/923445.png"
                         boxSec="Team Building"
-                        desc="Form teams of 1-4 members and collaborate to build innovative solutions"
+                        desc="Form teams of 2-4 members and collaborate to build innovative solutions"
                     />
                     <Box
                         imgUrl="https://cdn-icons-png.flaticon.com/128/10228/10228926.png"
-                        boxSec="Innovation Focus"
+                        boxSec="Innovate & Build"
                         desc="Work on cutting-edge technologies and solve real-world problems"
                     />
                     <Box
                         imgUrl="https://cdn-icons-png.flaticon.com/128/3112/3112946.png"
                         boxSec="Amazing Prizes"
-                        desc="Win exciting prizes worth  ₹ 3,00,000 and gain recognition for your innovations"
+                        desc="Win exciting prizes worth  ₹ 1,00,000 + and gain recognition for your innovations"
                     />
                 </div>
 
