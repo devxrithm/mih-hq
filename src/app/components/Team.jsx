@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Team = () => {
   return (
-    <div>
+    <div id="team">
       <div className={`${greatVibes.className} h-auto backdrop-blur-md mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl py-14 text-white`}>
         <div className={`${greatVibes.className} text-5xl`}>
           <div className="flex justify-center items-center gap-10 ">

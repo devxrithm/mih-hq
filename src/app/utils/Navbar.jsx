@@ -55,36 +55,34 @@ const Navbar = () => {
                             width={200}
                             height={200}
                             alt='logo'
-                        /> 
+                        />
                     </div>
                 </div>
                 <nav className={`${greatVibes.className} border rounded-2xl w-[50%] lg:block hidden`}>
                     <ul className="flex justify-center items-center gap-10 p-5  backdrop-blur-md rounded-2xl text-xl">
-                        <li>Rules</li>
-                        <li>Prizes</li>
-                        <li>Sponsors</li>
-                        {/* <div className="">
-                            <Image
-                                src="https://cdn.universitykart.com//Content/upload/admin/k0tevuvr.1k4.png"
-                                width={200}
-                                height={200}
-                                alt='logo'
-                                
-                            />
-                            {/* <Image
-                            src="/mainLogo.png"
-                            height={200}
-                            width={200}
-                            alt='logo'
-                        /> */}
-
-                        <li>Contact</li>
-                        <li>Theme</li>
-                        <li>Timeline</li>
+                        <Link href="#rules">
+                            <li>Rules</li>
+                        </Link>
+                        <Link href="#schedule">
+                            <li>Schedule</li>
+                        </Link>
+                        <Link href="#prizes">
+                            <li>Prizes</li>
+                        </Link>
+                        <Link href="#sponsor">
+                            <li>Sponsor</li>
+                        </Link>
+                        <Link href="#team">
+                            <li>Our Team</li>
+                        </Link>
+                        <Link href="#contact">
+                            <li>Contact</li>
+                        </Link>
+                        
                     </ul>
                 </nav>
                 <div className="flex justify-center items-center lg:block">
-                    
+
                     <div className="">
                         <Image
                             src="/gdg.png"

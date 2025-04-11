@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Rules = () => {
     return (
         <>
-            <div className={`${greatVibes.className} min-h-[90rem] backdrop-blur-md mx-2 lg:mx-5 mt-5 py-5 px-1 lg:px-10 rounded-3xl `}>
+            <div id="rules" className={`${greatVibes.className} min-h-[90rem] backdrop-blur-md mx-2 lg:mx-5 mt-5 py-5 px-1 lg:px-10 rounded-3xl `}>
 
 
                 <div className={`${greatVibes.className} pt-8  flex  justify-center items-center gap-8 `}>
