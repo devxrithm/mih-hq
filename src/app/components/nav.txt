@@ -1,0 +1,65 @@
+<div className=" pt-1 flex justify-evenly items-center ">
+                <div className="flex justify-center items-center">
+                    <div className="">
+                        <Image
+                            src="https://cdn.universitykart.com//Content/upload/admin/k0tevuvr.1k4.png"
+                            width={200}
+                            height={200}
+                            alt='logo'
+                           
+                        />
+                    </div>
+                    {/* <div className="">
+                        <Image
+                            src="/mainLogo.png"
+                            height={200}
+                            width={200}
+                            alt='logo'
+                        />
+                    </div> */}
+                </div>
+                <nav className={`${greatVibes.className} border rounded-2xl w-[50%]`}>
+                    <ul className="flex justify-center items-center gap-4 p-6 backdrop-blur-md rounded-2xl text-xl">
+                        <li>Rules</li>
+                        <li>Prizes</li>
+                        <li>Sponsors</li>
+                        {/* <div className="">
+                            <Image
+                                src="https://cdn.universitykart.com//Content/upload/admin/k0tevuvr.1k4.png"
+                                width={200}
+                                height={200}
+                                alt='logo'
+                                
+                            />
+                            {/* <Image
+                            src="/mainLogo.png"
+                            height={200}
+                            width={200}
+                            alt='logo'
+                        /> */}
+                        
+                        <li>Contact</li>
+                        <li>Theme</li>
+                        <li>Timeline</li>
+                    </ul>
+                </nav>
+                <div className="flex justify-center items-center">
+                    <div className="">
+                        {/* <Image
+                            src="https://cdn.universitykart.com//Content/upload/admin/k0tevuvr.1k4.png"
+                            width={200}
+                            height={200}
+                            alt='logo'
+                            className='rounded-xl'
+                        /> */}
+                    </div>
+                    <div className="">
+                        <Image
+                            src="/gdg.png"
+                            height={200}
+                            width={200}
+                            alt='logo'
+                        />
+                    </div>
+                </div>
+            </div>

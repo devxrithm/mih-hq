@@ -18,6 +18,7 @@ import Coordinator from './components/Coordinator';
 import Communit from './components/Communit';
 import Chief from './components/Chief';
 import Supported from './components/Supported';
+import Benifectro from './components/Benifectro'
 import { EmberParticles } from './components/EmberParticles';
 
 export default function Home() {
@@ -44,6 +45,7 @@ export default function Home() {
         <Pateron />
         <Convenor />
         <Coordinator />
+        <Benifectro/>
         <Supported />
         <Team />
         <Communit />

@@ -16,13 +16,15 @@ const Header = () => {
         <div className="relative h-auto">
             <Navbar />
 
-            <div className="relative z-20 flex items-center justify-center flex-col text-white gap-5">
-                 {/* <Image
-                            src="/mainLogo.png"
-                            height={200}
-                            width={200}
-                            alt='logo'
-                        />  */}
+            <div className="relative flex items-center justify-center flex-col text-white gap-5">
+                {/* <div className="">
+                    <Image
+                        src="/mainLogo.png"
+                        height={250}
+                        width={250}
+                        alt='logo'
+                    />
+                </div> */}
                 <div className="flex ">
                     <div className="rotate-237 relative top-20 hidden lg:block">
                         <Image src="/weapon.png" height={120} width={120} alt="logo" />
@@ -39,12 +41,16 @@ const Header = () => {
                 </h2>
             </div>
 
-            <Counter/>
+            <Counter />
 
             <div className="flex justify-center items-center text-2xl text-white relative mt-8 lg:mt-10 hover:scale-95">
                 <Link href="https://unstop.com/hackathons/mind-installers-hackathon-3o-iimt-college-of-engineering-iimt-coe-greater-noida-1454209">
                     <button className={`${greatVibes.className} cursor-pointer transition px-7 py-3 bg-orange-500 rounded-3xl`}>Register Now</button>
                 </Link>
+            </div>
+
+            <div className="">
+                <p className="text-center">Registration deadline 23rd April</p>
             </div>
         </div>
     );

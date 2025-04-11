@@ -29,35 +29,42 @@ const Supported = () => {
 
 
             <div className="mt-10">
-                <div className="flex justify-center items-center gap-20">
-                <Image
-                    src="/Csi_logo_india.png"
-                    width={100}
-                    height={100}
-                    alt='csi'
-                    className='rounded-xl'
-                />
-                <Image
-                    src="/ishare.png"
-                    width={200}
-                    height={200}
-                    alt='csi'
-                    className='rounded-xl'
-                />
-                <Image
-                    src="/iste.png"
-                    width={100}
-                    height={100}
-                    alt='csi'
-                    className='rounded-xl'
-                />
-                <Image
-                    src="/ashare.png"
-                    width={100}
-                    height={100}
-                    alt='csi'
-                    className='rounded-xl'
-                />
+                <div className="flex lg:flex-row flex-col justify-center items-center gap-20">
+                    <Image
+                        src="/Csi_logo_india.png"
+                        width={100}
+                        height={100}
+                        alt='csi'
+                        className='rounded-xl'
+                    />
+                    <Image
+                        src="/ishare.png"
+                        width={200}
+                        height={200}
+                        alt='csi'
+                        className='rounded-xl'
+                    />
+                    <Image
+                        src="/iste.png"
+                        width={100}
+                        height={100}
+                        alt='csi'
+                        className='rounded-xl'
+                    />
+                    <Image
+                        src="/ashare.png"
+                        width={100}
+                        height={100}
+                        alt='csi'
+                        className='rounded-xl'
+                    />
+                    <Image
+                        src="/ieee.png"
+                        width={150}
+                        height={150}
+                        alt='csi'
+                        className='rounded-xl'
+                    />
                 </div>
             </div>
         </div>
