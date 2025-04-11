@@ -51,14 +51,12 @@ const Navbar = () => {
                 <div className="flex justify-center items-center">
                     <div className="">
                         <Image
-                            src="/iimt.png"
+                            src="/IIMT.png"
                             width={200}
                             height={200}
                             alt='logo'
-
                         /> 
                     </div>
-                
                 </div>
                 <nav className={`${greatVibes.className} border rounded-2xl w-[50%] lg:block hidden`}>
                     <ul className="flex justify-center items-center gap-10 p-5  backdrop-blur-md rounded-2xl text-xl">
