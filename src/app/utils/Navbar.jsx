@@ -56,7 +56,7 @@ const Navbar = () => {
                             height={200}
                             alt='logo'
 
-                        />
+                        /> 
                     </div>
                 
                 </div>
