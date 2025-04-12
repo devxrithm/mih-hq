@@ -36,7 +36,8 @@ const Supported = () => {
                         height={100}
                         alt='csi'
                         className='rounded-xl w-auto h-auto'
-                        
+                        loading='lazy'
+
                     />
                     <Image
                         src="/ishare.png"
@@ -44,6 +45,7 @@ const Supported = () => {
                         height={200}
                         alt='csi'
                         className='rounded-xl w-auto h-auto'
+                        loading='lazy'
                     />
                     <Image
                         src="/iste.png"
@@ -51,6 +53,7 @@ const Supported = () => {
                         height={100}
                         alt='csi'
                         className='rounded-xl w-auto h-auto'
+                        loading='lazy'
                     />
                     <Image
                         src="/ashare.png"
@@ -58,6 +61,7 @@ const Supported = () => {
                         height={100}
                         alt='csi'
                         className='rounded-xl w-auto h-auto'
+                        loading='lazy'
                     />
                     <Image
                         src="/ieee.png"
@@ -65,6 +69,7 @@ const Supported = () => {
                         height={150}
                         alt='csi'
                         className='rounded-xl w-auto h-auto'
+                        loading='lazy'
                     />
                 </div>
             </div>

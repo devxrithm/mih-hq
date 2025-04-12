@@ -19,6 +19,7 @@ const Footer = () => {
                                 width={200}
                                 alt='logo'
                                 className="w-auto h-auto"
+                                loading = 'lazy'
                             />
                         </div>  
                         <h1 className="text-white text-5xl text-center">MIND INSTALLERS HACKATHON 3.0</h1>
@@ -46,6 +47,7 @@ const Footer = () => {
                                     height={25}
                                     width={25}
                                     alt='logo'
+                                    loading = 'lazy'
                                 />
                                 <p className="">+91 9717970475</p>
                             </div>
@@ -55,6 +57,7 @@ const Footer = () => {
                                     height={25}
                                     width={25}
                                     alt='logo'
+                                    loading = 'lazy'
                                 />
                                 <p className="">+91 8826181378</p>
                             </div>
@@ -64,6 +67,7 @@ const Footer = () => {
                                     height={25}
                                     width={25}
                                     alt='logo'
+                                    loading = 'lazy'
                                 />
                                 <p className="">+91 7902105161</p>
                             </div>
@@ -73,6 +77,7 @@ const Footer = () => {
                                     height={25}
                                     width={25}
                                     alt='logo'
+                                    loading = 'lazy'
                                 />
                                <Link href="mailto:iimthackathon_gn@iimtindia.net">
                                 <p className="">
@@ -86,6 +91,7 @@ const Footer = () => {
                                     height={25}
                                     width={25}
                                     alt='logo'
+                                    loading = 'lazy'
                                 />
                                 <p className="">Greater Noida, India</p>
                             </div>
@@ -103,6 +109,7 @@ const Footer = () => {
                                     height={50}
                                     width={50}
                                     alt='Instagram'
+                                    loading = 'lazy'
                                 />
                             </Link>
                             <Link href="https://www.linkedin.com/company/mind-installers-hackathon-3-0/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_companies%3BF%2FVH1I3LTQutw6qc4trgvw%3D%3D">
@@ -112,6 +119,7 @@ const Footer = () => {
                                     height={50}
                                     width={50}
                                     alt='Linkedin'
+                                    loading = 'lazy'
                                 />
                             </Link>
                             <Link href="https://www.instagram.com/mih.iimt/">
@@ -121,6 +129,7 @@ const Footer = () => {
                                     height={50}
                                     width={50}
                                     alt='Whatsapp'
+                                    loading = 'lazy'
                                 />
                             </Link>
                         </div>

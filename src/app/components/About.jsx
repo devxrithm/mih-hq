@@ -14,6 +14,7 @@ const About = () => {
                             width={80}
                             height={80}
                             alt='logo1'
+                            loading = 'lazy'
                         />
                     </div>
                     <h1 className={`${greatVibes.className} text-6xl lg:text-8xl text-center`}>About <span className="text-orange-600">MIH</span> </h1>
@@ -23,6 +24,7 @@ const About = () => {
                             width={80}
                             height={80}
                             alt='logo'
+                            loading = 'lazy'
                         />
                     </div>
                 </div>

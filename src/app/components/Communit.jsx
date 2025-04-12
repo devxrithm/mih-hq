@@ -35,6 +35,7 @@ const Communit = () => {
                         height={300}
                         alt='iimt'
                         className='rounded-xl'
+                        loading = 'lazy'
                     />
                     <Image
                         src="/logo SN.png"
@@ -42,6 +43,7 @@ const Communit = () => {
                         height={100}
                         alt='iimt'
                         className='rounded-xl'
+                        loading = 'lazy'
                     />
                 </div>
 

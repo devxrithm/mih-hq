@@ -42,6 +42,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
+                  loading = 'lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Sharique Hussain</h1>
@@ -54,6 +55,7 @@ const Team = () => {
                     width={30}
                     alt='logo'
                     className='text-center'
+                    loading = 'lazy'
                   />
                   <Image
                     src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"
@@ -61,6 +63,7 @@ const Team = () => {
                     width={30}
                     alt='logo'
                     className='text-center'
+                    loading = 'lazy'
                   />
                 </div>
               </Link>
@@ -77,6 +80,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
+                  loading = 'lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Akshat Bhargav	</h1>
@@ -87,6 +91,7 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
+                  loading = 'lazy'
                 />
               </Link>
             </div>
@@ -98,6 +103,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
+                  loading = 'lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Akash Maity	</h1>
@@ -108,6 +114,7 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
+                  loading = 'lazy'
                 />
               </Link>
             </div>
@@ -120,6 +127,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
+                  loading = 'lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Prakshi Goel</h1>
@@ -130,6 +138,7 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
+                  loading = 'lazy'
                 />
               </Link>
             </div>
@@ -147,6 +156,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
+                  loading = 'lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">	Shekhar Thathera	</h1>
@@ -157,6 +167,7 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
+                  loading = 'lazy'
                 />
               </Link>
             </div>
@@ -170,6 +181,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
+                  loading = 'lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Ujjwal Katiyar</h1>
@@ -180,6 +192,7 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
+                  loading = 'lazy'
                 />
               </Link>
             </div>
@@ -191,6 +204,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
+                  loading = 'lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Anshika</h1>
@@ -201,6 +215,7 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
+                  loading = 'lazy'
                 />
               </Link>
             </div>
@@ -212,6 +227,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
+                  loading = 'lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Anish</h1>
@@ -222,6 +238,7 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
+                  loading = 'lazy'
                 />
               </Link>
             </div>
@@ -237,6 +254,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
+                  loading = 'lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Prince Jha</h1>
@@ -247,6 +265,7 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
+                  loading = 'lazy'
                 />
               </Link>
             </div>
@@ -258,6 +277,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
+                  loading = 'lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Kush Singhal	</h1>
@@ -268,6 +288,7 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
+                  loading = 'lazy'
                 />
               </Link>
             </div>
@@ -279,6 +300,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
+                  loading = 'lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Yuvraj Anand	</h1>
@@ -289,6 +311,7 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
+                  loading = 'lazy'
                 />
               </Link>
             </div>
@@ -300,6 +323,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
+                  loading = 'lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Vibhawshu Pratap	</h1>
@@ -310,6 +334,7 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
+                  loading = 'lazy'
                 />
               </Link>
             </div>

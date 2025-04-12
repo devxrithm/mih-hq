@@ -13,6 +13,7 @@ const Box = ({ imgUrl, boxSec, desc }) => {
                         height={50}
                         width={50}
                         alt='logo'
+                        loading = 'lazy'
                     />
                 </div>
                 <div className="text-4xl text-center">

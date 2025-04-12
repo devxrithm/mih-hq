@@ -36,6 +36,7 @@ const Prizes = () => {
                             height={100}
                             width={100}
                             alt='logo'
+                            loading = 'lazy'
                         />
 
                         <h1 className="text-8xl text-center">1st</h1>
@@ -48,6 +49,7 @@ const Prizes = () => {
                             height={100}
                             width={100}
                             alt='logo'
+                            loading = 'lazy'
                         />
 
                         <h1 className="text-8xl text-center">2nd</h1>
@@ -60,6 +62,7 @@ const Prizes = () => {
                             height={100}
                             width={100}
                             alt='logo'
+                            loading = 'lazy'
                         />
 
                         <h1 className="text-8xl text-center">3rd</h1>

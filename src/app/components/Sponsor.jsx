@@ -14,6 +14,7 @@ const Sponsor = () => {
                                 height={100}
                                 width={100}
                                 alt="Sponsor logo"
+                                loading='lazy'
                             />
                         </div>
                         <h1 className={`${born2b.className} text-6xl lg:text-8xl text-center text-white leading-20`}>Our Sponsors</h1>
@@ -23,6 +24,7 @@ const Sponsor = () => {
                                 height={100}
                                 width={100}
                                 alt='logo'
+                                loading='lazy'
                             />
                         </div>
                     </div>
@@ -38,7 +40,8 @@ const Sponsor = () => {
                                 width={350}
                                 alt="logo"
                                 className="w-auto h-auto object-cover"
-                                
+                                loading='lazy'
+
                             />
                             <div className={`${born2b.className} absolute inset-5 right-8 flex items-center justify-center text-center lg:bottom-5`}>
                                 <Image
@@ -47,6 +50,7 @@ const Sponsor = () => {
                                     width={380}
                                     alt='logo'
                                     className="w-52 h-auto object-cover"
+                                    loading='lazy'
                                 />
                             </div>
                         </div>
@@ -60,6 +64,7 @@ const Sponsor = () => {
                                 width={320}
                                 alt="logo"
                                 className="w-auto h-auto object-cover"
+                                loading='lazy'
                             />
                             <div className={`${born2b.className} absolute inset-5 right-10 flex items-center justify-center text-center bottom-1`}>
                                 <Image
@@ -68,6 +73,7 @@ const Sponsor = () => {
                                     width={300}
                                     alt='logo'
                                     className="w-44 h-auto object-cover"
+                                    loading='lazy'
                                 />
                             </div>
                         </div>
@@ -81,6 +87,7 @@ const Sponsor = () => {
                                 width={350}
                                 alt="logo"
                                 className="w-auto h-auto object-cover"
+                                loading='lazy'
                             />
                             <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center bottom-5`}>
                                 <Image
@@ -89,6 +96,7 @@ const Sponsor = () => {
                                     width={220}
                                     alt='logo'
                                     className="w-40 h-auto object-cover rounded-2xl"
+                                    loading='lazy'
                                 />
                             </div>
                         </div>
@@ -123,6 +131,7 @@ const Sponsor = () => {
                                 width={350}
                                 alt="logo"
                                 className="w-auto h-auto object-cover"
+                                loading='lazy'
                             />
                             <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center lg:bottom-5`}>
                                 <Image
@@ -131,6 +140,7 @@ const Sponsor = () => {
                                     width={220}
                                     alt='logo'
                                     className="w-52 h-auto object-cover"
+                                    loading='lazy'
                                 />
                             </div>
                         </div>
@@ -147,6 +157,7 @@ const Sponsor = () => {
                                 width={350}
                                 alt="logo"
                                 className="w-64 h-auto lg:w-auto object-cover"
+                                loading='lazy'
                             />
                             <div className={`${born2b.className} absolute inset-0 flex items-center justify-center text-center bottom-5`}>
                                 <h1 className="text-xl lg:text-3xl drop-shadow-lg">Energy Drink Partner</h1>
@@ -163,6 +174,7 @@ const Sponsor = () => {
                                 width={320}
                                 alt="logo"
                                 className="w-auto h-auto object-cover"
+                                loading='lazy'
                             />
                             <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center bottom-5`}>
                                 <Image
@@ -170,7 +182,8 @@ const Sponsor = () => {
                                     height={100}
                                     width={100}
                                     alt='logo'
-                                className="object-cover rounded-2xl"
+                                    className="object-cover rounded-2xl"
+                                    loading='lazy'
                                 />
                             </div>
                         </div>

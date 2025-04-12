@@ -31,6 +31,7 @@ const Navbar = () => {
                         width={250}
                         height={250}
                         alt='logo'
+                        loading='lazy'
                     />
                     <button className='lg:hidden text-3xl ml-10' onClick={popMenuHandler}>
                         {
@@ -72,6 +73,7 @@ const Navbar = () => {
                         height={200}
                         width={200}
                         alt='logo'
+                        loading='lazy'
                     />
                 </div>
             </nav>

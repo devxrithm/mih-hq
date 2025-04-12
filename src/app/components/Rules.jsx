@@ -15,6 +15,7 @@ const Rules = () => {
                             height={100}
                             width={100}
                             alt='logo'
+                            loading = 'lazy'
                         />
                     </div>
                     <h1 className={`${born2b.className} hidden lg:block text-5xl lg:text-8xl text-center text-white leading-20 `}>Mind Installers <br />Hackathon 3.O</h1>
@@ -24,6 +25,7 @@ const Rules = () => {
                             height={100}
                             width={100}
                             alt='logo'
+                            loading = 'lazy'
                         />
                     </div>
                 </div>

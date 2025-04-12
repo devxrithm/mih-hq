@@ -28,6 +28,7 @@ const Header = () => {
                             width={120}
                             alt="logo"
                             style={{ width: "auto", height: "auto" }}
+                            loading = 'lazy'
                         />
                     </div>
                     <h1 className={`${born2b.className} drop-shadow-2xl text-6xl lg:text-[9rem] leading-12 lg:leading-24 text-center font-bold mt-6`}>
@@ -40,6 +41,7 @@ const Header = () => {
                             width={120}
                             alt="logo"
                             style={{ width: "auto", height: "auto" }}
+                            loading = 'lazy'
                         />
                     </div>
                 </div>

@@ -44,6 +44,7 @@ const Track = () => {
                                     height={100}
                                     width={100}
                                     alt='logo'
+                                    loading = 'lazy'
                                 />
                             </div>
                             <h1 className={`${greatVibes.className} text-6xl lg:text-8xl text-center text-white`}>Timeline </h1>
@@ -53,6 +54,7 @@ const Track = () => {
                                     height={100}
                                     width={100}
                                     alt='logo'
+                                    loading = 'lazy'
                                 />
                             </div>
                         </div>
@@ -127,6 +129,7 @@ const Track = () => {
                                                 height={50}
                                                 alt={item.title}
                                                 className="animate-pulse"
+                                                loading = 'lazy'
                                             />
                                             <div>
                                                 <span className={`${born2b.className} text-2xl text-orange-500`}>
