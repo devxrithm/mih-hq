@@ -232,7 +232,6 @@ export const EmberParticles = ({ containerId }) => {
       <div
         id={containerId}
         ref={containerRef}
-        className="fixed inset-0 pointer-events-none z-10"
       ></div>
     </>
   );

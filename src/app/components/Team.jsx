@@ -30,7 +30,7 @@ const Team = () => {
         </div>
 
 
-        <div className="mt-16 flex lg:flex-row flex-col gap-20 justify-center">
+        <div className="mt-16 flex lg:flex-row flex-col gap-14 justify-center">
           <div className="COLLEGE Gdg flex flex-col gap-10 justify-center items-center  ">
 
             <div className="border min-w-96 p-10 rounded-3xl flex flex-col gap-5 justify-center items-center">

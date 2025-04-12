@@ -16,7 +16,7 @@ const Header = () => {
         <div className="relative h-auto">
             <Navbar />
 
-            <div className="relative flex items-center justify-center flex-col text-white gap-5">
+            <div className="relative flex items-center justify-center flex-col text-white gap-5 pt-32">
                 {/* <div className="">
                     <Image
                         src="/mainLogo.png"
@@ -49,7 +49,7 @@ const Header = () => {
                 </Link>
             </div>
 
-            <div className={`${born2b.className} mt-5`}>
+            <div className={`${born2b.className} mt-5 text-white`}>
                 <p className="text-center text-xl">🚨 Registration deadline 23rd April 🚨 </p>
             </div>
         </div>

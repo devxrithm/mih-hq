@@ -32,7 +32,7 @@ const Track = () => {
     ];
     return (
         <>
-            <div className="h-auto bg-no-repeat bg-center bg-cover rounded-3xl mx-1 lg:mx-5 mt-5" id="schedule" >
+            <div className="h-auto bg-no-repeat bg-center bg-cover rounded-3xl mx-1 lg:mx-5 mt-5 w-full" id="schedule" >
 
                 <div className=" flex lg:py-2 py-10 flex-col backdrop-blur-sm rounded-3xl h-auto ">
 

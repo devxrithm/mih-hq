@@ -1,65 +1,50 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { greatVibes, born2b } from '../../../styles/font'
 import Image from 'next/image'
 import Link from 'next/link'
+import { IoMenu } from "react-icons/io5";
+import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
+
+    const [popup, setPopup] = useState(true)
+    const [clicked, setclicked] = useState(true)
+
+    const popMenuHandler = () => {
+        setPopup(!popup)
+        setclicked(!clicked)
+    }
+    const ClosePopMenuHandler = () => {
+        setPopup(false)
+        setclicked(!clicked)
+    }
+
+
     return (
         <>
-            {/* <nav className={`${greatVibes.className} relative flex items-center justify-center pt-3 text-lg text-white  `} >
+            <nav className={`${greatVibes.className} flex justify-evenly items-center h-28 fixed top-0 left-0 w-full z-50 backdrop-blur-md rounded-b-5xl `}>
 
-                <div className="bg-[url(/bg-nav.avif)] bg-center bg-cover shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] rounded-full hidden lg:block" style={{ filter: 'brightness(0.8)' }}>
 
-                    <ul className=' flex gap-6 justify-center items-center px-10 py-4 text-2xl  backdrop-blur-md rounded-full'>
-                        
-                        <Link href="#track">
-                            <li>Timeline</li>
-                        </Link>
-                        <li>Rules</li>
-
-                        <Link href="#prizes">
-                            <li>Prizes</li>
-                        </Link>
-                        <li></li>
-                    </ul>
-                </div>
-                <div>
+                <div className="flex justify-between items-center">
                     <Image
-                        src="/mainLogo.png"
-                        height={200}
-                        width={200}
+                        src="/IIMT.png"
+                        width={250}
+                        height={250}
                         alt='logo'
                     />
-                </div>
-                <div className="bg-[url(/bg-nav.avif)] bg-center bg-cover shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] rounded-full hidden lg:block" style={{ filter: 'brightness(0.8)' }}>
+                    <button className='lg:hidden text-3xl ml-10' onClick={popMenuHandler}>
+                        {
+                            clicked ? <IoMenu /> : <RxCross2 />
+                        }
 
-                    <ul className='flex gap-5 justify-center items-center px-10 py-4 text-center text-2xl backdrop-blur-xl rounded-full text-white'>
-                        <Link href="#sponsor">
-                            <li>Sponsor</li>
-                        </Link>
-                        <li>Past Hackathon</li>
-                        <Link href="#contact">
-                         <li>Contact</li>
-                         </Link>
-                        
-                        <li></li>
-                    </ul>
+                    </button>
                 </div>
-            </nav> */}
 
-            <div className=" flex justify-center items-center gap-10  ">
-                <div className="flex justify-center items-center">
-                    <div className="">
-                        <Image
-                            src="/IIMT.png"
-                            width={200}
-                            height={200}
-                            alt='logo'
-                        />
-                    </div>
-                </div>
-                <nav className={`${greatVibes.className} border rounded-2xl w-[50%] lg:block hidden`}>
-                    <ul className="flex justify-center items-center gap-10 p-5  backdrop-blur-md rounded-2xl text-xl">
+
+
+                <div className={` ${popup ? "hidden lg:block" : "block"}`}>
+                    <ul className={`flex justify-center items-center gap-10 text-white border p-5 rounded-xl backdrop-blur-md text-xl border-orange-700 flex-col lg:flex-row bg-black lg:bg-transparent absolute lg:relative top-28 right-5 lg:right-0 lg:top-0 w-80 lg:w-[100%] `} onClick={ClosePopMenuHandler} >
+                        {/*  w-full  lg:w-[50%]  */}
                         <Link href="#rules">
                             <li>Rules</li>
                         </Link>
@@ -78,21 +63,18 @@ const Navbar = () => {
                         <Link href="#contact">
                             <li>Contact</li>
                         </Link>
-                        
-                    </ul>
-                </nav>
-                <div className="flex justify-center items-center lg:block">
 
-                    <div className="">
-                        <Image
-                            src="/gdg.png"
-                            height={180}
-                            width={180}
-                            alt='logo'
-                        />
-                    </div>
+                    </ul>
                 </div>
-            </div>
+                <div className="hidden lg:block">
+                    <Image
+                        src="/gdg.png"
+                        height={200}
+                        width={200}
+                        alt='logo'
+                    />
+                </div>
+            </nav>
         </>
     )
 }

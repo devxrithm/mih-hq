@@ -6,7 +6,10 @@ import Link from 'next/link'
 const Footer = () => {
     return (
         <>
-            <div id="footer" className={`${greatVibes.className} pb-5 h-auto mx-1 lg:mx-5 text-white bg-black rounded-3xl flex flex-col items-center justify-center `}>
+        {/* pb-5 h-auto mx-1 lg:mx-5 text-white bg-black rounded-3xl flex flex-col items-center justify-center  */}
+        {/* h-auto backdrop-blur-md mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl py-14 text-white */}
+            <div id="footer" className={`${greatVibes.className} pb-5 h-auto mx-1 lg:mx-5 text-white rounded-3xl flex flex-col items-center justify-center backdrop-blur-md mt-5 px-1 lg:px-10 py-14 `}>
+
                 <div className="flex flex-col gap-5 lg:flex-row justify-center lg:justify-evenly pt-14 px-5">
                     <div className={`max-w-[100%] lg:max-w-[25%] ${born2b.className} flex flex-col justify-center items-center `}>
                         <div>

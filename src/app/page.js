@@ -30,13 +30,13 @@ export default function Home() {
   return (
     <>
       <div className="relative bg-[rgb(236,236,221)] z-0 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[url('/bg2.jpg')] before:bg-no-repeat before:bg-center before:-z-10 before:bg-cover before:bg-fixed before:brightness-[30%] ">
-        <div className="fixed inset-0 z-0">
+        <div className="fixed inset-0 z-0 w-full">
           <EmberParticles containerId="ember-container" />
         </div>
         {/* <h1>{isClient ? 'This is never prerendered' : 'Prerende red'}</h1> */}
         <Header />
         <About />
-        <Track />
+        {/* <Track /> */}
         <Rules />
         {/* <Versions/> */}
         <Prizes />

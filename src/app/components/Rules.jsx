@@ -36,23 +36,23 @@ const Rules = () => {
 
                     </div>
 
-                    <div className={`${born2b.className} max-w-[100%]  lg:min-w-[70%]`}>
+                    <div className={`${born2b.className} max-w-[100%]  lg:min-w-[70%] hover:scale-105 transition delay-150 duration-300 ease-in-out hover:shadow-lg hover:shadow-orange-500`}>
                         <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl'>
                             <h1 className="text-4xl text-white">1. General Rules :</h1>
                             <div className="pl-5 text-gray-300 text-2xl">
-                                <div className="flex gap-5">•
+                                <div className="flex gap-5"><span className="text-orange-600">•</span>
                                     <p className="">The Hackathon is open to all college students.
                                     </p>
                                 </div>
-                                <div className="flex gap-5">•
+                                <div className="flex gap-5"><span className="text-orange-600">•</span>
                                     <p className="">Participants must register as a team (team size: 2-4 members). Solo participation is not allowed.
                                     </p>
                                 </div>
-                                <div className="flex gap-5">•
+                                <div className="flex gap-5"><span className="text-orange-600">•</span>
                                     <p className="">Each team must submit their project idea and implementation details within the given deadline (Before Midnight, 24 April).
                                     </p>
                                 </div>
-                                <div className="flex gap-5">•
+                                <div className="flex gap-5"><span className="text-orange-600">•</span>
                                     <p className="">Submissions must align with the open innovation theme, ensuring originality and feasibility.
                                     </p>
                                 </div>
@@ -65,27 +65,27 @@ const Rules = () => {
 
                 <div className={`${born2b.className} flex flex-col lg:flex-row justify-center items-center gap-5 mt-5 lg:mt-10 `}>
 
-                    <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%] min-h-[26rem]'>
+                    <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%] min-h-[26rem] hover:scale-105 transition delay-150 duration-300 ease-in-out hover:shadow-lg hover:shadow-orange-500'>
                         <h1 className="text-4xl text-white">2. Project Submission :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
                             <div className="">
-                                <div className="flex gap-5">•
+                                <div className="flex gap-5"><span className="text-orange-600">•</span>
                                     <p className="">Teams must submit a well-documented project proposal (Provided Template), including :
                                     </p>
                                 </div>
                                 <div className="flex flex-col text-xl ml-10">
-                                    <li>Problem statement</li>
-                                    <li>Proposed solution</li>
-                                    <li>Technology stack</li>
-                                    <li>Implementation approach</li>
-                                    <li>Expected impact</li>
+                                    <li className='text-orange-200'>Problem statement</li>
+                                    <li className='text-orange-200'>Proposed solution</li>
+                                    <li className='text-orange-200'>Technology stack</li>
+                                    <li className='text-orange-200'>Implementation approach</li>
+                                    <li className='text-orange-200'>Expected impact</li>
                                 </div>
                             </div>
-                            <div className="flex gap-5">•
+                            <div className="flex gap-5 "><span className="text-orange-600">•</span>
                                 <p className="">A demo video (max 5 minutes) explaining the idea and progress.(Optional)
                                 </p>
                             </div>
-                            <div className="flex gap-5">•
+                            <div className="flex gap-5"><span className="text-orange-600">•</span>
                                 <p className="">Code repositories (GitHub/GitLab/Bitbucket) must be shared if applicable.
                                 </p>
                             </div>
@@ -93,22 +93,22 @@ const Rules = () => {
                     </div>
 
 
-                    <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%] min-h-[26rem]'>
+                    <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%] min-h-[26rem] hover:scale-105 transition delay-150 duration-300 ease-in-out hover:shadow-lg hover:shadow-orange-500'>
                         <h1 className="text-4xl text-white">3. Evaluation Criteria :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
-                            <div className="flex gap-5">•
+                            <div className="flex gap-5"><span className="text-orange-600">•</span>
                                 <p className="">Innovation & Creativity (30%) – Novelty of the idea and uniqueness.
                                 </p>
                             </div>
-                            <div className="flex gap-5">•
+                            <div className="flex gap-5"><span className="text-orange-600">•</span>
                                 <p className="">Technical Feasibility (30%) – Implementation approach and technology used.
                                 </p>
                             </div>
-                            <div className="flex gap-5">•
+                            <div className="flex gap-5"><span className="text-orange-600">•</span>
                                 <p className="">Impact & Usefulness (20%) – Real-world applicability and scalability.
                                 </p>
                             </div>
-                            <div className="flex gap-5">•
+                            <div className="flex gap-5"><span className="text-orange-600">•</span>
                                 <p className="">Presentation & Clarity (20%) – Quality of documentation and demo video.
                                 </p>
                             </div>
@@ -121,21 +121,21 @@ const Rules = () => {
                 {/* ************ */}
                 <div className={`${born2b.className} flex flex-col lg:flex-row justify-center items-center gap-5 mt-5 lg:mt-10 `}>
 
-                    <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%] min-h-[20rem]'>
-                        <h1 className="text-4xl text-white">2. Project Submission :</h1>
+                    <div className='hover:shadow-lg hover:shadow-orange-500 hover:scale-105 transition delay-150 duration-300 ease-in-out bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%] min-h-[20rem]'>
+                        <h1 className="text-4xl text-white">4. Conduct & Ethics :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
 
-                            <div className="flex gap-5">•
+                            <div className="flex gap-5"><span className="text-orange-600">•</span>
                                 <p className="">Teams must ensure originality—no plagiarism or use of pre-existing projects.
                                 </p>
                             </div>
 
 
-                            <div className="flex gap-5">•
+                            <div className="flex gap-5"><span className="text-orange-600">•</span>
                                 <p className="">AI-generated or automated submissions without actual development are not allowed.
                                 </p>
                             </div>
-                            <div className="flex gap-5">•
+                            <div className="flex gap-5"><span className="text-orange-600">•</span>
                                 <p className="">Any attempt to manipulate submissions or misrepresent work will lead to disqualification.
                                 </p>
                             </div>
@@ -143,18 +143,18 @@ const Rules = () => {
                     </div>
 
 
-                    <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%]  min-h-[20rem]'>
-                        <h1 className="text-4xl text-white">3. Evaluation Criteria :</h1>
+                    <div className='hover:shadow-lg hover:shadow-orange-500 hover:scale-105 transition delay-150 duration-300 ease-in-out bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%]  min-h-[20rem]'>
+                        <h1 className="text-4xl text-white">5. Communication & Deadlines :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
-                            <div className="flex gap-5">•
+                            <div className="flex gap-5"><span className="text-orange-600">•</span>
                                 <p className="">All communication will be done via the official hackathon Email channel.
                                 </p>
                             </div>
-                            <div className="flex gap-5">•
+                            <div className="flex gap-5"><span className="text-orange-600">•</span>
                                 <p className="">Teams must submit their project before the submission deadline (Before Midnight, 24 April) —late submissions will not be considered.
                                 </p>
                             </div>
-                            <div className="flex gap-5">•
+                            <div className="flex gap-5"><span className="text-orange-600">•</span>
                                 <p className="">The top-performing teams will be shortlisted for the final offline round.
                                 </p>
                             </div>
