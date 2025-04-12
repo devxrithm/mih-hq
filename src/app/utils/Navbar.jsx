@@ -33,7 +33,7 @@ const Navbar = () => {
                         alt='logo'
                         loading='lazy'
                     />
-                    <button className='lg:hidden text-3xl ml-10' onClick={popMenuHandler}>
+                    <button className='lg:hidden text-3xl ml-10 text-white' onClick={popMenuHandler}>
                         {
                             clicked ? <IoMenu /> : <RxCross2 />
                         }
