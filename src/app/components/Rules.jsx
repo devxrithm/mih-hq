@@ -75,13 +75,13 @@ const Rules = () => {
                                     <p className="">Teams must submit a well-documented project proposal (Provided Template), including :
                                     </p>
                                 </div>
-                                <div className="flex flex-col text-xl ml-10">
+                                <ul className="flex flex-col text-xl ml-10">
                                     <li className='text-orange-200'>Problem statement</li>
                                     <li className='text-orange-200'>Proposed solution</li>
                                     <li className='text-orange-200'>Technology stack</li>
                                     <li className='text-orange-200'>Implementation approach</li>
                                     <li className='text-orange-200'>Expected impact</li>
-                                </div>
+                                </ul>
                             </div>
                             <div className="flex gap-5 "><span className="text-orange-600">•</span>
                                 <p className="">A demo video (max 5 minutes) explaining the idea and progress.(Optional)

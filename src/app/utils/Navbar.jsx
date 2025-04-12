@@ -46,24 +46,36 @@ const Navbar = () => {
                 <div className={` ${popup ? "hidden lg:block" : "block"}`}>
                     <ul className={`flex justify-center items-center gap-10 text-white border p-5 rounded-xl backdrop-blur-md text-xl border-orange-700 flex-col lg:flex-row bg-black lg:bg-transparent absolute lg:relative top-28 right-5 lg:right-0 lg:top-0 w-80 lg:w-[100%] `} onClick={ClosePopMenuHandler} >
                         {/*  w-full  lg:w-[50%]  */}
-                        <Link href="#rules">
-                            <li>Rules</li>
-                        </Link>
-                        <Link href="#schedule">
-                            <li>Schedule</li>
-                        </Link>
-                        <Link href="#prizes">
-                            <li>Prizes</li>
-                        </Link>
-                        <Link href="#sponsor">
-                            <li>Sponsor</li>
-                        </Link>
-                        <Link href="#team">
-                            <li>Our Team</li>
-                        </Link>
-                        <Link href="#contact">
-                            <li>Contact</li>
-                        </Link>
+
+                        <li>
+                            <Link href="#rules">Rules</Link>
+                        </li>
+
+
+                        <li>
+                            <Link href="#schedule">Schedule</Link>
+                        </li>
+
+
+                        <li>
+                            <Link href="#prizes">Prizes</Link>
+                        </li>
+
+
+                        <li>
+                            <Link href="#sponsor">Sponsor</Link>
+                        </li>
+
+
+                        <li>
+                            <Link href="#team">Our Team</Link>
+                        </li>
+
+
+                        <li>
+                            <Link href="#contact">Contact</Link>
+                        </li>
+
 
                     </ul>
                 </div>
