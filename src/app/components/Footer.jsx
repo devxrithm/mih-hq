@@ -18,8 +18,9 @@ const Footer = () => {
                                 height={200}
                                 width={200}
                                 alt='logo'
+                                className="w-auto h-auto"
                             />
-                        </div>
+                        </div>  
                         <h1 className="text-white text-5xl text-center">MIND INSTALLERS HACKATHON 3.0</h1>
                     </div>
                     <div className={`max-w-[100%] lg:max-w-[25%] `}>

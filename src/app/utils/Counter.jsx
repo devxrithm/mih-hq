@@ -47,19 +47,19 @@ const Counter = () => {
         <div className="relative mt-5">
             <div style={{ textAlign: 'center' }}>
                 <div className={`${born2b.className} text-5xl lg:text-7xl text-white flex justify-center items-center gap-5`}>
-                    <span className=" bg-[url(/bg-nav.avif)] bg-no-repeat bg-center bg-cover rounded-2xl text-center " style={{ filter: 'brightness(0.9)' }}>
+                    <span className=" bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl text-center " style={{ filter: 'brightness(0.9)' }}>
                         <p id="day" className="backdrop-blur-sm rounded-2xl p-2 lg:p-4 ">{day}</p>
                     </span>
 
-                    <span className=" bg-[url(/bg-nav.avif)] bg-no-repeat bg-center bg-cover  rounded-2xl text-center " style={{ filter: 'brightness(0.9)' }}>
+                    <span className=" bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl text-center " style={{ filter: 'brightness(0.9)' }}>
                         <p id="hours" className="backdrop-blur-sm rounded-2xl p-2 lg:p-4">{hours}</p>
                     </span>
 
-                    <span className=" bg-[url(/bg-nav.avif)] bg-no-repeat bg-center bg-cover  rounded-2xl text-center " style={{ filter: 'brightness(0.9)' }}>
+                    <span className=" bg-gradient-to-r from-amber-600 to-orange-700 rounded-2xl text-center " style={{ filter: 'brightness(0.9)' }}>
                         <p id="min" className="backdrop-blur-sm rounded-2xl p-2 lg:p-4">{min} </p>
                     </span>
 
-                    <span className=" bg-[url(/bg-nav.avif)] bg-no-repeat bg-center bg-cover  rounded-2xl text-center " style={{ filter: 'brightness(0.9)' }}>
+                    <span className=" bg-gradient-to-r from-amber-600 to-orange-700  rounded-2xl text-center " style={{ filter: 'brightness(0.9)' }}>
                         <p id="sec" className="backdrop-blur-sm rounded-2xl p-2 lg:p-4">{sec} </p>
                     </span>
                 </div>

@@ -35,35 +35,36 @@ const Supported = () => {
                         width={100}
                         height={100}
                         alt='csi'
-                        className='rounded-xl'
+                        className='rounded-xl w-auto h-auto'
+                        
                     />
                     <Image
                         src="/ishare.png"
                         width={200}
                         height={200}
                         alt='csi'
-                        className='rounded-xl'
+                        className='rounded-xl w-auto h-auto'
                     />
                     <Image
                         src="/iste.png"
                         width={100}
                         height={100}
                         alt='csi'
-                        className='rounded-xl'
+                        className='rounded-xl w-auto h-auto'
                     />
                     <Image
                         src="/ashare.png"
                         width={100}
                         height={100}
                         alt='csi'
-                        className='rounded-xl'
+                        className='rounded-xl w-auto h-auto'
                     />
                     <Image
                         src="/ieee.png"
                         width={150}
                         height={150}
                         alt='csi'
-                        className='rounded-xl'
+                        className='rounded-xl w-auto h-auto'
                     />
                 </div>
             </div>

@@ -6,12 +6,7 @@ import Counter from '../utils/Counter'
 import Image from 'next/image'
 import Link from 'next/link'
 
-
-
 const Header = () => {
-
-
-
     return (
         <div className="relative h-auto">
             <Navbar />
@@ -27,13 +22,25 @@ const Header = () => {
                 </div> */}
                 <div className="flex ">
                     <div className="rotate-237 relative top-20 hidden lg:block">
-                        <Image src="/weapon.png" height={120} width={120} alt="logo" />
+                        <Image
+                            src="/weapon.png"
+                            height={120}
+                            width={120}
+                            alt="logo"
+                            style={{ width: "auto", height: "auto" }}
+                        />
                     </div>
                     <h1 className={`${born2b.className} drop-shadow-2xl text-6xl lg:text-[9rem] leading-12 lg:leading-24 text-center font-bold mt-6`}>
                         MIND INSTALLERS <br />HACKATHON <span className="text-orange-500">3.O</span>
                     </h1>
                     <div className="rotate-54 relative top-20 hidden lg:block">
-                        <Image src="/weapon.png" height={120} width={120} alt="logo" />
+                        <Image
+                            src="/weapon.png"
+                            height={120}
+                            width={120}
+                            alt="logo"
+                            style={{ width: "auto", height: "auto" }}
+                        />
                     </div>
                 </div>
                 <h2 className={`${greatVibes.className} text-2xl lg:text-3xl text-center`}>

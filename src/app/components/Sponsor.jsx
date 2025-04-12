@@ -1,6 +1,6 @@
-import React from 'react'
-import { greatVibes, born2b } from '../../../styles/font'
-import Image from 'next/image'
+import React from 'react';
+import { greatVibes, born2b } from '../../../styles/font';
+import Image from 'next/image';
 
 const Sponsor = () => {
     return (
@@ -13,7 +13,7 @@ const Sponsor = () => {
                                 src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
                                 height={100}
                                 width={100}
-                                alt='logo'
+                                alt="Sponsor logo"
                             />
                         </div>
                         <h1 className={`${born2b.className} text-6xl lg:text-8xl text-center text-white leading-20`}>Our Sponsors</h1>
@@ -37,7 +37,8 @@ const Sponsor = () => {
                                 height={350}
                                 width={350}
                                 alt="logo"
-                                className="w-full h-full object-cover"
+                                className="w-auto h-auto object-cover"
+                                
                             />
                             <div className={`${born2b.className} absolute inset-5 right-8 flex items-center justify-center text-center lg:bottom-5`}>
                                 <Image
@@ -55,10 +56,10 @@ const Sponsor = () => {
                         <div className="relative">
                             <Image
                                 src="/par.jpg"
-                                height={220}
-                                width={220}
+                                height={320}
+                                width={320}
                                 alt="logo"
-                                className="w-96 lg:w-full lg:h-full object-cover"
+                                className="w-auto h-auto object-cover"
                             />
                             <div className={`${born2b.className} absolute inset-5 right-10 flex items-center justify-center text-center bottom-1`}>
                                 <Image
@@ -79,7 +80,7 @@ const Sponsor = () => {
                                 height={350}
                                 width={350}
                                 alt="logo"
-                                className="w-full h-full object-cover"
+                                className="w-auto h-auto object-cover"
                             />
                             <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center bottom-5`}>
                                 <Image
@@ -95,7 +96,7 @@ const Sponsor = () => {
                     </div>
                 </div>
 
-                {/* ****************Swag Partner***************? */}
+                {/* ****************Swag Partner*************** */}
 
                 <div className="">
                     {/* <div className="flex justify-center">
@@ -121,7 +122,7 @@ const Sponsor = () => {
                                 height={350}
                                 width={350}
                                 alt="logo"
-                                className="w-full h-full object-cover"
+                                className="w-auto h-auto object-cover"
                             />
                             <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center lg:bottom-5`}>
                                 <Image
@@ -161,7 +162,7 @@ const Sponsor = () => {
                                 height={320}
                                 width={320}
                                 alt="logo"
-                                className=" object-cover"
+                                className="w-auto h-auto object-cover"
                             />
                             <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center bottom-5`}>
                                 <Image
@@ -169,7 +170,7 @@ const Sponsor = () => {
                                     height={100}
                                     width={100}
                                     alt='logo'
-                                   className=" object-cover rounded-2xl"
+                                className="object-cover rounded-2xl"
                                 />
                             </div>
                         </div>
@@ -180,4 +181,4 @@ const Sponsor = () => {
     )
 }
 
-export default Sponsor
+export default Sponsor;

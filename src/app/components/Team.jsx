@@ -41,7 +41,7 @@ const Team = () => {
                   height={200}
                   width={200}
                   alt='logo'
-                  className='text-center rounded-full'
+                  className='text-center rounded-full w-auto h-auto'
                 />
               </div>
               <h1 className="text-4xl text-center">Sharique Hussain</h1>
@@ -76,7 +76,7 @@ const Team = () => {
                   height={200}
                   width={200}
                   alt='logo'
-                  className='text-center rounded-full'
+                  className='text-center rounded-full w-auto h-auto'
                 />
               </div>
               <h1 className="text-4xl text-center">Akshat Bhargav	</h1>
@@ -97,7 +97,7 @@ const Team = () => {
                   height={200}
                   width={200}
                   alt='logo'
-                  className='text-center rounded-full'
+                  className='text-center rounded-full w-auto h-auto'
                 />
               </div>
               <h1 className="text-4xl text-center">Akash Maity	</h1>
@@ -119,7 +119,7 @@ const Team = () => {
                   height={200}
                   width={200}
                   alt='logo'
-                  className='text-center rounded-full'
+                  className='text-center rounded-full w-auto h-auto'
                 />
               </div>
               <h1 className="text-4xl text-center">Prakshi Goel</h1>
@@ -146,7 +146,7 @@ const Team = () => {
                   height={200}
                   width={200}
                   alt='logo'
-                  className='text-center rounded-full'
+                  className='text-center rounded-full w-auto h-auto'
                 />
               </div>
               <h1 className="text-4xl text-center">	Shekhar Thathera	</h1>
@@ -169,7 +169,7 @@ const Team = () => {
                   height={200}
                   width={200}
                   alt='logo'
-                  className='text-center rounded-full'
+                  className='text-center rounded-full w-auto h-auto'
                 />
               </div>
               <h1 className="text-4xl text-center">Ujjwal Katiyar</h1>
@@ -190,7 +190,7 @@ const Team = () => {
                   height={200}
                   width={200}
                   alt='logo'
-                  className='text-center rounded-full'
+                  className='text-center rounded-full w-auto h-auto'
                 />
               </div>
               <h1 className="text-4xl text-center">Anshika</h1>
@@ -211,7 +211,7 @@ const Team = () => {
                   height={200}
                   width={200}
                   alt='logo'
-                  className='text-center rounded-full'
+                  className='text-center rounded-full w-auto h-auto'
                 />
               </div>
               <h1 className="text-4xl text-center">Anish</h1>
@@ -236,7 +236,7 @@ const Team = () => {
                   height={200}
                   width={200}
                   alt='logo'
-                  className='text-center rounded-full'
+                  className='text-center rounded-full w-auto h-auto'
                 />
               </div>
               <h1 className="text-4xl text-center">Prince Jha</h1>
@@ -257,7 +257,7 @@ const Team = () => {
                   height={200}
                   width={200}
                   alt='logo'
-                  className='text-center rounded-full'
+                  className='text-center rounded-full w-auto h-auto'
                 />
               </div>
               <h1 className="text-4xl text-center">Kush Singhal	</h1>
@@ -278,7 +278,7 @@ const Team = () => {
                   height={200}
                   width={200}
                   alt='logo'
-                  className='text-center rounded-full'
+                  className='text-center rounded-full w-auto h-auto'
                 />
               </div>
               <h1 className="text-4xl text-center">Yuvraj Anand	</h1>
@@ -299,7 +299,7 @@ const Team = () => {
                   height={200}
                   width={200}
                   alt='logo'
-                  className='text-center rounded-full'
+                  className='text-center rounded-full w-auto h-auto'
                 />
               </div>
               <h1 className="text-4xl text-center">Vibhawshu Pratap	</h1>

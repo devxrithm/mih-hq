@@ -11,8 +11,8 @@ const About = () => {
                     <div className="hidden lg:block ">
                         <Image
                             src="https://cdn-icons-png.flaticon.com/128/15621/15621476.png"
-                            height={80}
                             width={80}
+                            height={80}
                             alt='logo1'
                         />
                     </div>
@@ -20,8 +20,8 @@ const About = () => {
                     <div className="hidden lg:block ">
                         <Image
                             src="https://cdn-icons-png.flaticon.com/128/8583/8583878.png"
-                            height={80}
                             width={80}
+                            height={80}
                             alt='logo'
                         />
                     </div>
