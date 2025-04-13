@@ -15,7 +15,7 @@ const Navbar = () => {
         setclicked(!clicked)
     }
     const ClosePopMenuHandler = () => {
-        setPopup(false)
+        setPopup(!popup)
         setclicked(!clicked)
     }
 
