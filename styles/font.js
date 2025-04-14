@@ -1,13 +1,22 @@
-import {Pixelify_Sans } from "next/font/google";
-import localFont from 'next/font/local'
- 
+// fonts.ts (or wherever you define fonts)
+import { Pixelify_Sans } from "next/font/google";
+import localFont from "next/font/local";
 
-const greatVibes = localFont({ src: './Game-Paused-DEMO.woff' })
-const born2b = localFont({ src: './Born2bSportyFS.otf' })
+// Local fonts
+const greatVibes = localFont({
+  src: "./Game-Paused-DEMO.woff",
+  display: "swap",
+});
 
+const born2b = localFont({
+  src: "./Born2bSportyFS.otf",
+  display: "swap",
+});
+
+// Google font
 const pixelifySans = Pixelify_Sans({
-   variable: "--font-pixelify-sans",
-   subsets: ["latin"],
- });
+  subsets: ["latin"],
+  display: "swap",
+});
 
-export { greatVibes,pixelifySans,born2b }
+export { greatVibes, pixelifySans, born2b };
