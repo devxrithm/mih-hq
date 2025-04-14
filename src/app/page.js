@@ -37,7 +37,7 @@ export default function Home() {
         {/* <h1>{isClient ? 'This is never prerendered' : 'Prerende red'}</h1> */}
         <Header />
         <About />
-        {/* <Track /> */}
+        <Track />
         <Rules />
         {/* <Versions/> */}
         <Theme/>
