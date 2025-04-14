@@ -4,6 +4,7 @@ import { greatVibes, born2b } from '../../../styles/font'
 
 const Theme = () => {
   return (
+    
     <div id="theme">
       <div className={`${greatVibes.className} h-auto backdrop-blur-md mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl py-14 text-white`}>
         <div className={`${greatVibes.className} text-5xl`}>
