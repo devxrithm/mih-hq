@@ -40,7 +40,7 @@ export default function Home() {
         <Track />
         <Rules />
         {/* <Versions/> */}
-        <Theme/>
+        {/* <Theme/> */}
         <Prizes />
         <Sponsor />
         <Chief />
