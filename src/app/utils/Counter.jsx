@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { greatVibes, born2b } from '../../../styles/font'
-import { useTimer } from 'react-timer-hook';
+
 
 const Counter = () => {
 

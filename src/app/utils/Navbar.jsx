@@ -56,6 +56,10 @@ const Navbar = () => {
                             <Link href="#schedule">Schedule</Link>
                         </li>
 
+                        <li>
+                            <Link href="#theme">Theme</Link>
+                        </li>
+
 
                         <li>
                             <Link href="#prizes">Prizes</Link>

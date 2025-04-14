@@ -20,7 +20,7 @@ const Header = () => {
                         alt='logo'
                     />
                 </div> */}
-                <div className="flex ">
+                <div className="flex mt-32">
                     <div className="rotate-237 relative top-20 hidden lg:block">
                         <Image
                             src="/weapon.png"
@@ -28,12 +28,23 @@ const Header = () => {
                             width={120}
                             alt="logo"
                             style={{ width: "auto", height: "auto" }}
-                            loading = 'lazy'
+                            loading='lazy'
                         />
                     </div>
-                    <h1 className={`${born2b.className} drop-shadow-2xl text-6xl lg:text-[9rem] leading-12 lg:leading-24 text-center font-bold mt-6`}>
-                        MIND INSTALLERS <br />HACKATHON <span className="text-orange-500">3.O</span>
-                    </h1>
+                    <div className="flex flex-col justify-center items-center">
+                        <div className="absolute top-26">
+                            <Image
+                                src="/mainLogo.png"
+                                height={220}
+                                width={220}
+                                alt="logo"
+                                loading='lazy'
+                            />
+                        </div>
+                        <h1 className={`${born2b.className} drop-shadow-2xl text-6xl lg:text-[9rem] leading-12 lg:leading-24 text-center font-bold mt-6`}>
+                            MIND INSTALLERS <br />HACKATHON <span className="text-orange-500">3.O</span>
+                        </h1>
+                    </div>
                     <div className="rotate-54 relative top-20 hidden lg:block">
                         <Image
                             src="/weapon.png"
@@ -41,7 +52,7 @@ const Header = () => {
                             width={120}
                             alt="logo"
                             style={{ width: "auto", height: "auto" }}
-                            loading = 'lazy'
+                            loading='lazy'
                         />
                     </div>
                 </div>
