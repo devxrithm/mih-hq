@@ -30,6 +30,7 @@ const Navbar = () => {
                         src="/IIMT.png"
                         width={250}
                         height={250}
+                        className='w-52 lg:w-auto lg:h-auto'
                         alt='logo'
                         loading='lazy'
                     />
