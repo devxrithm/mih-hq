@@ -20,7 +20,7 @@ import Chief from './components/Chief';
 import Supported from './components/Supported';
 import Benifectro from './components/Benifectro'
 import { EmberParticles } from './components/EmberParticles';
-import Theme from './components/Theme';
+// import Theme from './components/Theme';
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false)
