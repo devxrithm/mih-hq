@@ -54,7 +54,7 @@ const Navbar = () => {
 
 
                         <li>
-                            <Link href="#schedule">Schedule</Link>
+                            <Link href="#schedule">Timeline</Link>
                         </li>
 
                         <li>

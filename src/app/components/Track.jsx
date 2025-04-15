@@ -95,7 +95,7 @@ const Track = () => {
                                         clipRule="evenodd" />
                                 </svg>
                             </div>
-                            <div className="timeline-start mb-10 md:text-end border p-5 w-[80%] rounded-3xl">
+                            <div className="timeline-start mb-10 md:text-end border p-5 max-w-[100%] lg:max-w-[80%]  rounded-3xl">
                                 <time className={`font-mono ${born2b.className} text-2xl`}>10th April 25</time>
                                 <div className="text-lg font-black">Project Ppt. Submission</div>
                                 Submit your project presentation using the provided template from the 'Download Attachments' section on Unstop. Convert from PDF to PPTX to start working.
@@ -114,6 +114,7 @@ const Track = () => {
                             </div>
                             <hr className='bg-orange-500' />
                         </li>
+
                         <li>
                             <hr />
                             <div className="timeline-middle">
@@ -128,7 +129,7 @@ const Track = () => {
                                         clipRule="evenodd" />
                                 </svg>
                             </div>
-                            <div className="timeline-end md:mb-10 border p-3 w-[80%] rounded-3xl">
+                            <div className="timeline-end md:mb-10 border p-3 max-w-[100%] lg:max-w-[80%]  rounded-3xl">
                                 <time className={`font-mono ${born2b.className} text-2xl`}>26th Apr 25</time>
                                 <div className="text-lg font-black">Round 1 | Online Pitching</div>
                                 Present your project in an Online Meet with mentors & organizing team. Selected teams will advance to the offline finale.
@@ -149,7 +150,7 @@ const Track = () => {
                                         clipRule="evenodd" />
                                 </svg>
                             </div>
-                            <div className="timeline-start mb-10 md:text-end  border p-5 w-[80%] rounded-3xl">
+                            <div className="timeline-start mb-10 md:text-end  border p-5 max-w-[100%] lg:max-w-[80%] rounded-3xl">
                                 <time className={`font-mono ${born2b.className} text-2xl`}>1st May 25</time>
                                 <div className="text-lg font-black">Round 2 | Offline Finale</div>
                                 The ultimate 30-hour offline hackathon showdown! Bring your ideas to life and compete with the best minds from across the nation. 🏆
