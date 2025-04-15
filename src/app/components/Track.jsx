@@ -81,7 +81,7 @@ const Track = () => {
 
                     </div> */}
 
-                    <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-white">
+                    <ul className={`${born2b.className} timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-white mt-10`}>
                         <li>
                             <div className="timeline-middle text-white">
                                 <svg
@@ -96,9 +96,21 @@ const Track = () => {
                                 </svg>
                             </div>
                             <div className="timeline-start mb-10 md:text-end border p-5 w-[80%] rounded-3xl">
-                                <time className="font-mono italic">31th April</time>
+                                <time className={`font-mono ${born2b.className} text-2xl`}>10th April 25</time>
                                 <div className="text-lg font-black">Project Ppt. Submission</div>
                                 Submit your project presentation using the provided template from the 'Download Attachments' section on Unstop. Convert from PDF to PPTX to start working.
+                                <div className=" p-3  flex justify-end">
+
+                                    <p className="px-6 py-2 rounded-xl bg-orange-500 flex gap-4 text-xl justify-center items-center">
+                                        <Image
+                                            src="https://cdn-icons-png.flaticon.com/128/3049/3049365.png"
+                                            width={20}
+                                            height={20}
+                                            alt='live'
+                                            className='rounded'
+                                        />
+                                        Live</p>
+                                </div>
                             </div>
                             <hr className='bg-orange-500' />
                         </li>
@@ -117,11 +129,9 @@ const Track = () => {
                                 </svg>
                             </div>
                             <div className="timeline-end md:mb-10 border p-3 w-[80%] rounded-3xl">
-                                <time className="font-mono italic">1998</time>
-                                <div className="text-lg font-black">iMac</div>
-                                iMac is a family of all-in-one Mac desktop computers designed and built by Apple Inc. It has
-                                been the primary part of Apple's consumer desktop offerings since its debut in August 1998,
-                                and has evolved through seven distinct forms
+                                <time className={`font-mono ${born2b.className} text-2xl`}>26th Apr 25</time>
+                                <div className="text-lg font-black">Round 1 | Online Pitching</div>
+                                Present your project in an Online Meet with mentors & organizing team. Selected teams will advance to the offline finale.
                             </div>
                             <hr className='bg-orange-500' />
                         </li>
@@ -139,64 +149,16 @@ const Track = () => {
                                         clipRule="evenodd" />
                                 </svg>
                             </div>
-                            <div className="timeline-start mb-10 md:text-end">
-                                <time className="font-mono italic">2001</time>
-                                <div className="text-lg font-black">iPod</div>
-                                The iPod is a discontinued series of portable media players and multi-purpose mobile devices
-                                designed and marketed by Apple Inc. The first version was released on October 23, 2001, about
-                                8+1⁄2 months after the Macintosh version of iTunes was released. Apple sold an estimated 450
-                                million iPod products as of 2022. Apple discontinued the iPod product line on May 10, 2022. At
-                                over 20 years, the iPod brand is the oldest to be discontinued by Apple
+                            <div className="timeline-start mb-10 md:text-end  border p-5 w-[80%] rounded-3xl">
+                                <time className={`font-mono ${born2b.className} text-2xl`}>1st May 25</time>
+                                <div className="text-lg font-black">Round 2 | Offline Finale</div>
+                                The ultimate 30-hour offline hackathon showdown! Bring your ideas to life and compete with the best minds from across the nation. 🏆
                             </div>
                             <hr className='bg-orange-500' />
                         </li>
-                        <li>
-                            <hr />
-                            <div className="timeline-middle">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 20 20"
-                                    fill="currentColor"
-                                    className="h-5 w-5">
-                                    <path
-                                        fillRule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                        clipRule="evenodd" />
-                                </svg>
-                            </div>
-                            <div className="timeline-end md:mb-10">
-                                <time className="font-mono italic">2007</time>
-                                <div className="text-lg font-black">iPhone</div>
-                                iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile
-                                operating system. The first-generation iPhone was announced by then-Apple CEO Steve Jobs on
-                                January 9, 2007. Since then, Apple has annually released new iPhone models and iOS updates. As
-                                of November 1, 2018, more than 2.2 billion iPhones had been sold. As of 2022, the iPhone
-                                accounts for 15.6% of global smartphone market share
-                            </div>
-                            <hr className='bg-orange-500' />
-                        </li>
-                        <li>
-                            <hr />
-                            <div className="timeline-middle">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 20 20"
-                                    fill="currentColor"
-                                    className="h-5 w-5">
-                                    <path
-                                        fillRule="evenodd"
-                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-                                        clipRule="evenodd" />
-                                </svg>
-                            </div>
-                            <div className="timeline-start mb-10 md:text-end">
-                                <time className="font-mono italic">2015</time>
-                                <div className="text-lg font-black">Apple Watch</div>
-                                The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness
-                                tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
-                                iOS and other Apple products and services
-                            </div>
-                        </li>
+
+
+
                     </ul>
                 </div>
             </div>
