@@ -96,7 +96,7 @@ const Track = () => {
                                 </svg>
                             </div>
                             <div className="timeline-start mb-5 md:text-end border p-5 max-w-[100%] lg:max-w-[80%]  rounded-3xl">
-                                <time className={`font-mono ${born2b.className} text-2xl text-orange-500`}>10th April 25</time>
+                                <time className={`font-mono ${born2b.className} text-2xl text-orange-500`}>24th April 25</time>
                                 <div className="text-xl">Project Ppt. Submission</div>
                                 <p className="text-xl"> Submit your project presentation using the provided template from the 'Download Attachments' section on Unstop. Convert from PDF to PPTX to start working.</p>
                                
