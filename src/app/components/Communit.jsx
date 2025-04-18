@@ -34,7 +34,7 @@ const Communit = () => {
                         width={300}
                         height={300}
                         alt='iimt'
-                        className='rounded-xl'
+                        className='rounded-xl lg:hidden block'
                         loading = 'lazy'
                     />
                     <Image
@@ -42,7 +42,7 @@ const Communit = () => {
                         width={100}
                         height={100}
                         alt='iimt'
-                        className='rounded-xl'
+                        className='rounded-xl hidden '
                         loading = 'lazy'
                     />
                 </div>

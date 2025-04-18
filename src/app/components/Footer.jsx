@@ -6,8 +6,8 @@ import Link from 'next/link'
 const Footer = () => {
     return (
         <>
-        {/* pb-5 h-auto mx-1 lg:mx-5 text-white bg-black rounded-3xl flex flex-col items-center justify-center  */}
-        {/* h-auto backdrop-blur-md mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl py-14 text-white */}
+            {/* pb-5 h-auto mx-1 lg:mx-5 text-white bg-black rounded-3xl flex flex-col items-center justify-center  */}
+            {/* h-auto backdrop-blur-md mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl py-14 text-white */}
             <div id="footer" className={`${greatVibes.className} pb-5 h-auto mx-1 lg:mx-5 text-white rounded-3xl flex flex-col items-center justify-center backdrop-blur-md mt-5 px-1 lg:px-10 py-14 `}>
 
                 <div className="flex flex-col gap-5 lg:flex-row justify-center lg:justify-evenly pt-14 px-5">
@@ -19,9 +19,9 @@ const Footer = () => {
                                 width={200}
                                 alt='logo'
                                 className="w-auto h-auto"
-                                loading = 'lazy'
+                                loading='lazy'
                             />
-                        </div>  
+                        </div>
                         <h1 className="text-white text-5xl text-center">MIND INSTALLERS HACKATHON 3.0</h1>
                     </div>
                     <div className={`max-w-[100%] lg:max-w-[25%] `}>
@@ -29,11 +29,19 @@ const Footer = () => {
                             <h1 className="text-3xl text-gray-400">Quick Links</h1>
                         </div>
                         <ul className="">
-                            <li>FAQs</li>
-                            <li>Timeline</li>
-                            <li>Themes</li>
-                            <li>Contact Us</li>
-                            <li>Sponsor</li>
+                            {/* <li>FAQs</li> */}
+                            <Link href="#schedule">
+                                <li>Timeline</li>
+                            </Link>
+                            <Link href="#theme">
+                                <li>Themes</li>
+                            </Link>
+                            <Link href="#contact">
+                                <li>Contact Us</li>
+                            </Link>
+                            <Link href="#sponsor">
+                                <li>Sponsor</li>
+                            </Link>
                         </ul>
                     </div>
                     <div className={`max-w-[100%] lg:max-w-[25%] `}>
@@ -47,7 +55,7 @@ const Footer = () => {
                                     height={25}
                                     width={25}
                                     alt='logo'
-                                    loading = 'lazy'
+                                    loading='lazy'
                                 />
                                 <p className="">+91 9717970475</p>
                             </div>
@@ -57,7 +65,7 @@ const Footer = () => {
                                     height={25}
                                     width={25}
                                     alt='logo'
-                                    loading = 'lazy'
+                                    loading='lazy'
                                 />
                                 <p className="">+91 8826181378</p>
                             </div>
@@ -67,7 +75,7 @@ const Footer = () => {
                                     height={25}
                                     width={25}
                                     alt='logo'
-                                    loading = 'lazy'
+                                    loading='lazy'
                                 />
                                 <p className="">+91 7902105161</p>
                             </div>
@@ -77,12 +85,12 @@ const Footer = () => {
                                     height={25}
                                     width={25}
                                     alt='logo'
-                                    loading = 'lazy'
+                                    loading='lazy'
                                 />
-                               <Link href="mailto:iimthackathon_gn@iimtindia.net">
-                                <p className="">
+                                <Link href="mailto:iimthackathon_gn@iimtindia.net">
+                                    <p className="">
                                         iimthackathon_gn@iimtindia.net
-                                </p>
+                                    </p>
                                 </Link>
                             </div>
                             <div className="flex items-center gap-3">
@@ -91,7 +99,7 @@ const Footer = () => {
                                     height={25}
                                     width={25}
                                     alt='logo'
-                                    loading = 'lazy'
+                                    loading='lazy'
                                 />
                                 <p className="">Greater Noida, India</p>
                             </div>
@@ -109,7 +117,7 @@ const Footer = () => {
                                     height={50}
                                     width={50}
                                     alt='Instagram'
-                                    loading = 'lazy'
+                                    loading='lazy'
                                 />
                             </Link>
                             <Link href="https://www.linkedin.com/company/mind-installers-hackathon-3-0/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_companies%3BF%2FVH1I3LTQutw6qc4trgvw%3D%3D">
@@ -119,19 +127,19 @@ const Footer = () => {
                                     height={50}
                                     width={50}
                                     alt='Linkedin'
-                                    loading = 'lazy'
+                                    loading='lazy'
                                 />
                             </Link>
-                            <Link href="https://www.instagram.com/mih.iimt/">
+                            {/* <Link href="https://www.instagram.com/mih.iimt/">
 
                                 <Image
                                     src="https://cdn-icons-png.flaticon.com/128/16566/16566143.png"
                                     height={50}
                                     width={50}
                                     alt='Whatsapp'
-                                    loading = 'lazy'
+                                    loading='lazy'
                                 />
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </div>

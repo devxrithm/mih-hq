@@ -84,7 +84,7 @@ const Team = () => {
                 />
               </div>
               <h1 className="text-4xl text-center">Akshat Bhargav	</h1>
-              <Link href="https://www.linkedin.com/in/shekharthathera/">
+              <Link href="https://www.linkedin.com/in/akshat-bhargav-647289266/">
                 <Image
                   src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
                   height={30}
@@ -107,9 +107,9 @@ const Team = () => {
                 />
               </div>
               <h1 className="text-4xl text-center">Akash Maity	</h1>
-              <Link href="https://www.linkedin.com/in/shekharthathera/">
+              <Link href="https://www.instagram.com/akash123.m/profilecard/">
                 <Image
-                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
+                  src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"
                   height={30}
                   width={30}
                   alt='logo'
@@ -131,7 +131,7 @@ const Team = () => {
                 />
               </div>
               <h1 className="text-4xl text-center">Prakshi Goel</h1>
-              <Link href="https://www.linkedin.com/in/shekharthathera/">
+              <Link href="https://www.linkedin.com/in/prakshi-goel-4b75a6228/">
                 <Image
                   src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
                   height={30}
@@ -231,7 +231,7 @@ const Team = () => {
                 />
               </div>
               <h1 className="text-4xl text-center">Anish</h1>
-              <Link href="https://www.linkedin.com/in/shekharthathera/">
+              <Link href="https://www.linkedin.com/in/anish-gupta-5471a129a/">
                 <Image
                   src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
                   height={30}

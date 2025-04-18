@@ -56,7 +56,7 @@ const Sponsor = () => {
                         </div>
                     </div>
 
-                    <div className="relative flex justify-center items-center lg:bottom-10">
+                    {/* <div className="relative flex justify-center items-center lg:bottom-10">
                         <div className="relative">
                             <Image
                                 src="/par.jpg"
@@ -77,7 +77,7 @@ const Sponsor = () => {
                                 />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="flex justify-center items-center">
                         <div className="relative">
@@ -148,47 +148,94 @@ const Sponsor = () => {
                 </div>
                 {/* ********refreshment************** */}
 
-                <div className="">
-                    <div className="flex justify-center">
-                        <div className="relative">
-                            <Image
-                                src="/refreshment.jpg"
-                                height={350}
-                                width={350}
-                                alt="logo"
-                                className="w-64 h-auto lg:w-auto object-cover"
-                                loading='lazy'
-                            />
-                            <div className={`${born2b.className} absolute inset-0 flex items-center justify-center text-center bottom-5`}>
-                                <h1 className="text-xl lg:text-3xl drop-shadow-lg">Energy Drink Partner</h1>
+                <div className=" flex justify-center items-center gap-10 lg:flex-row flex-col text-black">
+                    <div className="">
+                        <div className="flex justify-center">
+                            <div className="relative">
+                                <Image
+                                    src="/refreshment.jpg"
+                                    height={350}
+                                    width={350}
+                                    alt="logo"
+                                    className="w-64 h-auto lg:w-auto object-cover"
+                                    loading='lazy'
+                                />
+                                <div className={`${born2b.className} absolute inset-0 flex items-center justify-center text-center bottom-5`}>
+                                    <h1 className="text-xl lg:text-3xl drop-shadow-lg">Energy Drink Partner</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex justify-center items-center">
+                            <div className="relative">
+                                <Image
+                                    src="/par2.png"
+                                    height={320}
+                                    width={320}
+                                    alt="logo"
+                                    className="w-auto h-auto object-cover"
+                                    loading='lazy'
+                                />
+                                <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center bottom-5`}>
+                                    <Image
+                                        src="/bspark.jpg"
+                                        height={100}
+                                        width={100}
+                                        alt='logo'
+                                        className="object-cover rounded-2xl"
+                                        loading='lazy'
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
 
-
-                    <div className="flex justify-center items-center">
-                        <div className="relative">
-                            <Image
-                                src="/par2.png"
-                                height={320}
-                                width={320}
-                                alt="logo"
-                                className="w-auto h-auto object-cover"
-                                loading='lazy'
-                            />
-                            <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center bottom-5`}>
+                    <div className="">
+                    <div className="flex justify-center">
+                            <div className="relative">
                                 <Image
-                                    src="/bspark.jpg"
-                                    height={100}
-                                    width={100}
-                                    alt='logo'
-                                    className="object-cover rounded-2xl"
+                                    src="/refreshment.jpg"
+                                    height={350}
+                                    width={350}
+                                    alt="logo"
+                                    className="w-64 h-auto lg:w-auto object-cover"
                                     loading='lazy'
                                 />
+                                <div className={`${born2b.className} absolute inset-0 flex items-center justify-center text-center bottom-5`}>
+                                    <h1 className="text-xl lg:text-3xl drop-shadow-lg">Managing Partner</h1>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex justify-center items-center">
+                            <div className="relative">
+                                <Image
+                                    src="/par2.png"
+                                    height={320}
+                                    width={320}
+                                    alt="logo"
+                                    className="w-auto h-auto object-cover"
+                                    loading='lazy'
+                                />
+                                <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center bottom-5`}>
+                                    <Image
+                                        src="/logo SN.png"
+                                        height={100}
+                                        width={100}
+                                        alt='logo'
+                                        className="object-cover rounded-2xl"
+                                        loading='lazy'
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+
+
+
             </div>
         </>
     )

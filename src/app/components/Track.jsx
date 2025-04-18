@@ -81,7 +81,7 @@ const Track = () => {
 
                     </div> */}
 
-                    <ul className={`${born2b.className} timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-white mt-10`}>
+                    <ul className={`${greatVibes.className} timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-white mt-10`}>
                         <li>
                             <div className="timeline-middle text-white">
                                 <svg
@@ -96,9 +96,10 @@ const Track = () => {
                                 </svg>
                             </div>
                             <div className="timeline-start mb-5 md:text-end border p-5 max-w-[100%] lg:max-w-[80%]  rounded-3xl">
-                                <time className={`font-mono ${born2b.className} text-2xl`}>10th April 25</time>
-                                <div className="text-lg font-black">Project Ppt. Submission</div>
-                                Submit your project presentation using the provided template from the 'Download Attachments' section on Unstop. Convert from PDF to PPTX to start working.
+                                <time className={`font-mono ${born2b.className} text-2xl text-orange-500`}>10th April 25</time>
+                                <div className="text-xl">Project Ppt. Submission</div>
+                                <p className="text-xl"> Submit your project presentation using the provided template from the 'Download Attachments' section on Unstop. Convert from PDF to PPTX to start working.</p>
+                               
                                 <div className=" p-3  flex justify-end">
 
                                     <p className="px-6 py-2 rounded-xl bg-orange-500 flex gap-4 text-xl justify-center items-center">
@@ -130,9 +131,10 @@ const Track = () => {
                                 </svg>
                             </div>
                             <div className="timeline-end mb-5 md:mb-10 border p-3 max-w-[100%] lg:max-w-[80%]  rounded-3xl">
-                                <time className={`font-mono ${born2b.className} text-2xl`}>26th Apr 25</time>
-                                <div className="text-lg font-black">Round 1 | Online Pitching</div>
-                                Present your project in an Online Meet with mentors & organizing team. Selected teams will advance to the offline finale.
+                                <time className={`font-mono ${born2b.className} text-2xl text-orange-500`}>26th Apr 25</time>
+                                <div className="text-xl">Round 1 | Online Pitching</div>
+                                <p className="text-xl">Present your project in an Online Meet with mentors & organizing team. Selected teams will advance to the offline finale.</p>
+                                
                             </div>
                             <hr className='bg-orange-500' />
                         </li>
@@ -151,9 +153,10 @@ const Track = () => {
                                 </svg>
                             </div>
                             <div className="timeline-start mb-10 md:text-end  border p-5 max-w-[100%] lg:max-w-[80%] rounded-3xl">
-                                <time className={`font-mono ${born2b.className} text-2xl`}>1st May 25</time>
-                                <div className="text-lg font-black">Round 2 | Offline Finale</div>
-                                The ultimate 30-hour offline hackathon showdown! Bring your ideas to life and compete with the best minds from across the nation. 🏆
+                                <time className={`font-mono ${born2b.className} text-2xl text-orange-500`}>1st May 25</time>
+                                <div className="text-2xl">Grand Finale</div>
+                                <p className="text-xl">The ultimate 30-hour offline hackathon showdown! Bring your ideas to life and compete with the best minds from across the nation. 🏆</p>
+                                
                             </div>
                             <hr className='bg-orange-500' />
                         </li>
