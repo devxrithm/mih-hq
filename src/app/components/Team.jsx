@@ -327,7 +327,7 @@ const Team = () => {
                 />
               </div>
               <h1 className="text-4xl text-center">Vibhawshu Pratap	</h1>
-              <Link href="https://www.linkedin.com/in/shekharthathera/">
+              <Link href="https://www.linkedin.com/in/vibhawshu-pratap-singh-44473126a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <Image
                   src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
                   height={30}
