@@ -13,15 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  openGraph: {
-    title: 'MIH 3.O',
-    description: 'The Mind Installers Hackathon is back with its 3rd edition, bringing together some of the brightest tech minds from all over the country for an exciting competition !',
-    url: 'https://mihiimt.vercel.app/',
-    siteName: 'Mind Installers Hackathon 3.0',
-    authors: ['Ujjwal Katiyar aka @devrithm'],
-    locale: 'en_US',
-    type: 'website',
-  },
+  title: "MIH 3.0",
+  description: "The Mind Installers Hackathon is back with its 3rd edition, bringing together some of the brightest tech minds from all over the country for an exciting competition!",
+  authors: [{ name: 'Ujjwal Katiyar aka Devrithm' }],
+  keywords: ['MIH 3.0', 'Mind Installers Hackathon 3.0', 'IIMT', 'mih 3.0', 'mih', 'mind installers hackathon', 'hackathon', 'unstop'],
 };
 
 
