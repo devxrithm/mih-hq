@@ -56,7 +56,7 @@ const Sponsor = () => {
                         </div>
                     </div>
 
-                    {/* <div className="relative flex justify-center items-center lg:bottom-10">
+                    <div className="relative flex justify-center items-center lg:bottom-10">
                         <div className="relative">
                             <Image
                                 src="/par.jpg"
@@ -77,7 +77,7 @@ const Sponsor = () => {
                                 />
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
                     <div className="flex justify-center items-center">
                         <div className="relative">
@@ -117,7 +117,7 @@ const Sponsor = () => {
                                 className="w-64 h-auto lg:w-auto object-cover"
                             />
                             <div className={`${born2b.className} absolute inset-0 flex items-center justify-center text-center bottom-5`}>
-                                <h1 className="text-xl lg:text-3xl drop-shadow-lg">Refreshment Partner</h1>
+                                <h1 className="text-xl lg:text-3xl drop-shadow-lg">Swag Partner</h1>
                             </div>
                         </div>
                     </div>
