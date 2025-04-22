@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Versions = () => {
     return (
         <>
-            <div className={`${greatVibes.className} h-[90rem] backdrop-blur-md mx-5 mt-5 px-10 rounded-3xl `} id="version">
+            <div className={`${greatVibes.className} h-[90rem] backdrop-blur-sm mx-5 mt-5 px-10 rounded-3xl `} id="version">
                 <div className={`${greatVibes.className} pt-8 mx-52 `}>
                     <div className="flex justify-center items-center ">
                         <div className="rotate-225 ">

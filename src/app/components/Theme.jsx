@@ -5,7 +5,7 @@ import { greatVibes, born2b } from '../../../styles/font'
 const Theme = () => {
     return (
         <div id="theme">
-            <div className={`${greatVibes.className} h-auto backdrop-blur-md mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl py-14 text-white`}>
+            <div className={`${greatVibes.className} h-auto backdrop-blur-sm mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl py-14 text-white`}>
                 <div className={`${greatVibes.className} text-5xl`}>
                     <div className="flex justify-center items-center gap-10 ">
                         <div className="rotate-225 hidden lg:block ">
@@ -35,7 +35,7 @@ const Theme = () => {
                             height={1000}
                             width={1000}
                             alt="logo"
-                            className="w-auto h-auto object-cover"
+                            className=" object-cover"
                             loading='lazy'
                         />
 

@@ -22,7 +22,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className={`${greatVibes.className} flex justify-evenly items-center h-28 fixed top-0 left-0 w-full z-50 backdrop-blur-md rounded-b-5xl `}>
+            <nav className={`${greatVibes.className} flex justify-evenly items-center h-28 fixed top-0 left-0 w-full z-50 backdrop-blur-sm rounded-b-5xl `}>
 
 
                 <div className="flex justify-between items-center">
@@ -45,7 +45,7 @@ const Navbar = () => {
 
 
                 <div className={` ${popup ? "hidden lg:block" : "block"}`}>
-                    <ul className={`flex justify-center items-center gap-10 text-white border p-5 rounded-xl backdrop-blur-md text-xl border-orange-700 flex-col lg:flex-row bg-black lg:bg-transparent absolute lg:relative top-28 right-5 lg:right-0 lg:top-0 w-80 lg:w-[100%] `} onClick={ClosePopMenuHandler} >
+                    <ul className={`flex justify-center items-center gap-10 text-white border p-5 rounded-xl backdrop-blur-sm text-xl border-orange-700 flex-col lg:flex-row bg-black lg:bg-transparent absolute lg:relative top-28 right-5 lg:right-0 lg:top-0 w-80 lg:w-[100%] `} onClick={ClosePopMenuHandler} >
                         {/*  w-full  lg:w-[50%]  */}
 
                         <li>

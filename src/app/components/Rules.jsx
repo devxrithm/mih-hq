@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Rules = () => {
     return (
         <>
-            <div id="rules" className={`${greatVibes.className} min-h-[90rem] backdrop-blur-md mx-2 lg:mx-5 mt-5 py-5 px-1 lg:px-10 rounded-3xl `}>
+            <div id="rules" className={`min-h-[90rem] backdrop-blur-sm mx-2 lg:mx-5 mt-5 py-5 px-1 lg:px-10 rounded-3xl `}>
 
 
                 <div className={`${greatVibes.className} pt-8  flex  justify-center items-center gap-8 `}>
@@ -38,9 +38,9 @@ const Rules = () => {
 
                     </div>
 
-                    <div className={`${born2b.className} max-w-[100%]  lg:min-w-[70%] hover:scale-105 transition delay-150 duration-300 ease-in-out hover:shadow-lg hover:shadow-orange-500`}>
+                    <div className={` max-w-[100%]  lg:min-w-[70%] hover:scale-105 transition delay-150 duration-300 ease-in-out hover:shadow-lg hover:shadow-orange-500`}>
                         <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl'>
-                            <h1 className="text-4xl text-white">1. General Rules :</h1>
+                            <h1 className={`text-4xl ${born2b.className} text-orange-600`} >1. General Rules :</h1>
                             <div className="pl-5 text-gray-300 text-2xl">
                                 <div className="flex gap-5"><span className="text-orange-600">•</span>
                                     <p className="">The Hackathon is open to all college students.
@@ -65,10 +65,10 @@ const Rules = () => {
                 </div>
 
 
-                <div className={`${born2b.className} flex flex-col lg:flex-row justify-center items-center gap-5 mt-5 lg:mt-10 `}>
+                <div className={`flex flex-col lg:flex-row justify-center items-center gap-5 mt-5 lg:mt-10 `}>
 
                     <div className=' bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%] min-h-[26rem] hover:scale-105 transition delay-150 duration-300 ease-in-out hover:shadow-lg hover:shadow-orange-500'>
-                        <h1 className="text-4xl text-white">2. Project Submission :</h1>
+                        <h1 className={`text-4xl ${born2b.className} text-orange-600`}>2. Project Submission :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
                             <div className="">
                                 <div className="flex gap-5"><span className="text-orange-600">•</span>
@@ -96,7 +96,7 @@ const Rules = () => {
 
 
                     <div className='bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%] min-h-[26rem] hover:scale-105 transition delay-150 duration-300 ease-in-out hover:shadow-lg hover:shadow-orange-500'>
-                        <h1 className="text-4xl text-white">3. Evaluation Criteria :</h1>
+                        <h1 className={`text-4xl ${born2b.className} text-orange-600`}>3. Evaluation Criteria :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
                             <div className="flex gap-5"><span className="text-orange-600">•</span>
                                 <p className="">Innovation & Creativity (30%) – Novelty of the idea and uniqueness.
@@ -121,10 +121,10 @@ const Rules = () => {
 
 
                 {/* ************ */}
-                <div className={`${born2b.className} flex flex-col lg:flex-row justify-center items-center gap-5 mt-5 lg:mt-10 `}>
+                <div className={`flex flex-col lg:flex-row justify-center items-center gap-5 mt-5 lg:mt-10 `}>
 
                     <div className='hover:shadow-lg hover:shadow-orange-500 hover:scale-105 transition delay-150 duration-300 ease-in-out bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%] min-h-[20rem]'>
-                        <h1 className="text-4xl text-white">4. Conduct & Ethics :</h1>
+                        <h1 className={`text-4xl ${born2b.className} text-orange-600`}>4. Conduct & Ethics :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
 
                             <div className="flex gap-5"><span className="text-orange-600">•</span>
@@ -146,7 +146,7 @@ const Rules = () => {
 
 
                     <div className='hover:shadow-lg hover:shadow-orange-500 hover:scale-105 transition delay-150 duration-300 ease-in-out bg-[#0d0e11] border border-gray-700 p-5 rounded-2xl max-w-[100%] lg:min-w-[50%]  min-h-[20rem]'>
-                        <h1 className="text-4xl text-white">5. Communication & Deadlines :</h1>
+                        <h1 className={`text-4xl ${born2b.className} text-orange-600`}>5. Communication & Deadlines :</h1>
                         <div className="pl-5 text-gray-300 text-2xl">
                             <div className="flex gap-5"><span className="text-orange-600">•</span>
                                 <p className="">All communication will be done via the official hackathon Email channel.

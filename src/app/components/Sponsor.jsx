@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Sponsor = () => {
     return (
         <>
-            <div id="sponsor" className={`${greatVibes.className} h-auto backdrop-blur-md mx-1 lg:mx-5 mt-5 lg:px-10 rounded-3xl `} >
+            <div id="sponsor" className={`${greatVibes.className} h-auto backdrop-blur-sm mx-1 lg:mx-5 mt-5 lg:px-10 rounded-3xl `} >
                 <div className={`${greatVibes.className} pt-8 mx-0 lg:mx-52`}>
                     <div className="flex flex-col lg:flex-row justify-center items-center gap-10">
                         <div className="rotate-225 hidden lg:block">
@@ -107,7 +107,7 @@ const Sponsor = () => {
                 {/* ****************Swag Partner*************** */}
 
                 <div className="">
-                    {/* <div className="flex justify-center">
+                    <div className="flex justify-center">
                         <div className="relative">
                             <Image
                                 src="/refreshment.jpg"
@@ -120,7 +120,7 @@ const Sponsor = () => {
                                 <h1 className="text-xl lg:text-3xl drop-shadow-lg">Refreshment Partner</h1>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
 
                     <div className="flex justify-center items-center">

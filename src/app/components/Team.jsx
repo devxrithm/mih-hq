@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Team = () => {
   return (
     <div id="team">
-      <div className={`${greatVibes.className} h-auto backdrop-blur-md mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl py-14 text-white`}>
+      <div className={`${greatVibes.className} h-auto backdrop-blur-sm mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl py-14 text-white`}>
         <div className={`${greatVibes.className} text-5xl`}>
           <div className="flex justify-center items-center gap-10 ">
             <div className="rotate-225 hidden lg:block ">
@@ -33,6 +33,118 @@ const Team = () => {
         <div className="mt-16 flex lg:flex-row flex-col gap-14 justify-center">
           <div className="COLLEGE Gdg flex flex-col gap-10 justify-center items-center  ">
 
+
+
+            <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
+              <div className="w-[100%] flex justify-center items-center">
+                <Image
+                  src="/yuvraj.jpeg"
+                  height={200}
+                  width={200}
+                  alt='logo'
+                  className='text-center rounded-full w-auto h-auto'
+                  loading='lazy'
+                />
+              </div>
+              <h1 className="text-4xl text-center">Yuvraj Anand	</h1>
+              <Link href="https://www.linkedin.com/in/yuvraj-anand-548593269/">
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
+                  height={30}
+                  width={30}
+                  alt='logo'
+                  className='text-center'
+                  loading='lazy'
+                />
+              </Link>
+            </div>
+
+            <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
+              <div className="w-[100%] flex justify-center items-center">
+                <Image
+                  src="/akshat.jpg"
+                  height={200}
+                  width={200}
+                  alt='logo'
+                  className='text-center rounded-full w-auto h-auto'
+                  loading='lazy'
+                />
+              </div>
+              <h1 className="text-4xl text-center">Akshat Bhargav	</h1>
+              <Link href="https://www.linkedin.com/in/akshat-bhargav-647289266/">
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
+                  height={30}
+                  width={30}
+                  alt='logo'
+                  className='text-center'
+                  loading='lazy'
+                />
+              </Link>
+            </div>
+
+
+
+            
+            <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
+              <div className="w-[100%] flex justify-center items-center">
+                <Image
+                  src="/prakshi.jpeg"
+                  height={200}
+                  width={200}
+                  alt='logo'
+                  className='text-center rounded-full w-auto h-auto'
+                  loading='lazy'
+                />
+              </div>
+              <h1 className="text-4xl text-center">Prakshi Goel</h1>
+              <Link href="https://www.linkedin.com/in/prakshi-goel-4b75a6228/">
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
+                  height={30}
+                  width={30}
+                  alt='logo'
+                  className='text-center'
+                  loading='lazy'
+                />
+              </Link>
+            </div>
+
+            <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
+              <div className="w-[100%] flex justify-center items-center">
+                <Image
+                  src="/akash.jpeg"
+                  height={200}
+                  width={200}
+                  alt='logo'
+                  className='text-center rounded-full w-auto h-auto'
+                  loading='lazy'
+                />
+              </div>
+              <h1 className="text-4xl text-center">Akash Maity	</h1>
+              <Link href="https://www.instagram.com/akash123.m/profilecard/">
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"
+                  height={30}
+                  width={30}
+                  alt='logo'
+                  className='text-center'
+                  loading='lazy'
+                />
+              </Link>
+            </div>
+
+
+          </div>
+
+
+          {/* ********************** */}
+
+          <div className="COLLEGE GDG flex flex-col gap-10 justify-center items-center  ">
+
+
+
+
             <div className="border min-w-96 p-10 rounded-3xl flex flex-col gap-5 justify-center items-center">
 
               <div className="w-[100%] flex justify-center items-center">
@@ -42,7 +154,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
-                  loading = 'lazy'
+                  loading='lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Sharique Hussain</h1>
@@ -55,7 +167,7 @@ const Team = () => {
                     width={30}
                     alt='logo'
                     className='text-center'
-                    loading = 'lazy'
+                    loading='lazy'
                   />
                   <Image
                     src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"
@@ -63,113 +175,11 @@ const Team = () => {
                     width={30}
                     alt='logo'
                     className='text-center'
-                    loading = 'lazy'
+                    loading='lazy'
                   />
                 </div>
               </Link>
 
-            </div>
-
-
-
-            <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
-              <div className="w-[100%] flex justify-center items-center">
-                <Image
-                  src="/akshat.jpeg"
-                  height={200}
-                  width={200}
-                  alt='logo'
-                  className='text-center rounded-full w-auto h-auto'
-                  loading = 'lazy'
-                />
-              </div>
-              <h1 className="text-4xl text-center">Akshat Bhargav	</h1>
-              <Link href="https://www.linkedin.com/in/akshat-bhargav-647289266/">
-                <Image
-                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
-                  height={30}
-                  width={30}
-                  alt='logo'
-                  className='text-center'
-                  loading = 'lazy'
-                />
-              </Link>
-            </div>
-            <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
-              <div className="w-[100%] flex justify-center items-center">
-                <Image
-                  src="/akash.jpeg"
-                  height={200}
-                  width={200}
-                  alt='logo'
-                  className='text-center rounded-full w-auto h-auto'
-                  loading = 'lazy'
-                />
-              </div>
-              <h1 className="text-4xl text-center">Akash Maity	</h1>
-              <Link href="https://www.instagram.com/akash123.m/profilecard/">
-                <Image
-                  src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"
-                  height={30}
-                  width={30}
-                  alt='logo'
-                  className='text-center'
-                  loading = 'lazy'
-                />
-              </Link>
-            </div>
-
-            <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
-              <div className="w-[100%] flex justify-center items-center">
-                <Image
-                  src="/prakshi.jpeg"
-                  height={200}
-                  width={200}
-                  alt='logo'
-                  className='text-center rounded-full w-auto h-auto'
-                  loading = 'lazy'
-                />
-              </div>
-              <h1 className="text-4xl text-center">Prakshi Goel</h1>
-              <Link href="https://www.linkedin.com/in/prakshi-goel-4b75a6228/">
-                <Image
-                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
-                  height={30}
-                  width={30}
-                  alt='logo'
-                  className='text-center'
-                  loading = 'lazy'
-                />
-              </Link>
-            </div>
-
-
-          </div>
-
-
-          <div className="COLLEGE GDG flex flex-col gap-10 justify-center items-center  ">
-            <div className="border min-w-96 p-10 rounded-3xl flex flex-col gap-5 justify-center items-center">
-              <div className="w-[100%] flex justify-center items-center">
-                <Image
-                  src="/shekhar.png"
-                  height={200}
-                  width={200}
-                  alt='logo'
-                  className='text-center rounded-full w-auto h-auto'
-                  loading = 'lazy'
-                />
-              </div>
-              <h1 className="text-4xl text-center">	Shekhar Thathera	</h1>
-              <Link href="https://www.linkedin.com/in/shekharthathera/">
-                <Image
-                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
-                  height={30}
-                  width={30}
-                  alt='logo'
-                  className='text-center'
-                  loading = 'lazy'
-                />
-              </Link>
             </div>
 
 
@@ -181,7 +191,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
-                  loading = 'lazy'
+                  loading='lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Ujjwal Katiyar</h1>
@@ -192,10 +202,13 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
-                  loading = 'lazy'
+                  loading='lazy'
                 />
               </Link>
             </div>
+
+
+
             <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
               <div className="w-[100%] flex justify-center items-center">
                 <Image
@@ -204,10 +217,10 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
-                  loading = 'lazy'
+                  loading='lazy'
                 />
               </div>
-              <h1 className="text-4xl text-center">Anshika</h1>
+              <h1 className="text-4xl text-center">Anshika Singh</h1>
               <Link href="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <Image
                   src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
@@ -215,10 +228,13 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
-                  loading = 'lazy'
+                  loading='lazy'
                 />
               </Link>
             </div>
+
+
+
             <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
               <div className="w-[100%] flex justify-center items-center">
                 <Image
@@ -227,7 +243,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
-                  loading = 'lazy'
+                  loading='lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Anish</h1>
@@ -238,14 +254,16 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
-                  loading = 'lazy'
+                  loading='lazy'
                 />
               </Link>
             </div>
           </div>
 
-
+          {/* ******************** */}
           <div className="COLLEGE GDG flex flex-col gap-10 justify-center items-center  ">
+
+
             <div className="border min-w-96 p-10 rounded-3xl flex flex-col gap-5 justify-center items-center">
               <div className="w-[100%] flex justify-center items-center">
                 <Image
@@ -254,7 +272,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
-                  loading = 'lazy'
+                  loading='lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Prince Jha</h1>
@@ -265,10 +283,38 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
-                  loading = 'lazy'
+                  loading='lazy'
                 />
               </Link>
             </div>
+
+
+            <div className="border min-w-96 p-10 rounded-3xl flex flex-col gap-5 justify-center items-center">
+              <div className="w-[100%] flex justify-center items-center">
+                <Image
+                  src="/shekhar.png"
+                  height={200}
+                  width={200}
+                  alt='logo'
+                  className='text-center rounded-full w-auto h-auto'
+                  loading='lazy'
+                />
+              </div>
+              <h1 className="text-4xl text-center">	Shekhar Thathera	</h1>
+              <Link href="https://www.linkedin.com/in/shekharthathera/">
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
+                  height={30}
+                  width={30}
+                  alt='logo'
+                  className='text-center'
+                  loading='lazy'
+                />
+              </Link>
+            </div>
+
+
+
             <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
               <div className="w-[100%] flex justify-center items-center">
                 <Image
@@ -277,7 +323,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
-                  loading = 'lazy'
+                  loading='lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Kush Singhal	</h1>
@@ -288,33 +334,15 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
-                  loading = 'lazy'
+                  loading='lazy'
                 />
               </Link>
             </div>
-            <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
-              <div className="w-[100%] flex justify-center items-center">
-                <Image
-                  src="/yuvraj.jpeg"
-                  height={200}
-                  width={200}
-                  alt='logo'
-                  className='text-center rounded-full w-auto h-auto'
-                  loading = 'lazy'
-                />
-              </div>
-              <h1 className="text-4xl text-center">Yuvraj Anand	</h1>
-              <Link href="https://www.linkedin.com/in/yuvraj-anand-548593269/">
-                <Image
-                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
-                  height={30}
-                  width={30}
-                  alt='logo'
-                  className='text-center'
-                  loading = 'lazy'
-                />
-              </Link>
-            </div>
+
+
+
+
+
             <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
               <div className="w-[100%] flex justify-center items-center">
                 <Image
@@ -323,7 +351,7 @@ const Team = () => {
                   width={200}
                   alt='logo'
                   className='text-center rounded-full w-auto h-auto'
-                  loading = 'lazy'
+                  loading='lazy'
                 />
               </div>
               <h1 className="text-4xl text-center">Vibhawshu Pratap	</h1>
@@ -334,7 +362,7 @@ const Team = () => {
                   width={30}
                   alt='logo'
                   className='text-center'
-                  loading = 'lazy'
+                  loading='lazy'
                 />
               </Link>
             </div>

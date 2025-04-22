@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Supported = () => {
     return (
 
-        <div className={`${greatVibes.className} h-auto backdrop-blur-md mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl py-14 text-white`}>
+        <div className={`${greatVibes.className} h-auto backdrop-blur-sm mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl py-14 text-white`}>
             <div className={`${greatVibes.className} text-5xl`}>
                 <div className="flex justify-center items-center gap-10 ">
                     <div className="rotate-225 hidden lg:block ">

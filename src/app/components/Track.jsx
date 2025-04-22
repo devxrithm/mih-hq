@@ -2,12 +2,19 @@ import React from 'react'
 import Image from 'next/image'
 import { greatVibes, born2b } from '../../../styles/font'
 import { motion } from "framer-motion"
+import { Geist, Geist_Mono, Pixelify_Sans, Georama } from "next/font/google";
+
+
+const geistMono = Georama({
+    variable: "--font-geist-mono",
+    subsets: ["latin"],
+  });
 
 const Track = () => {
 
     return (
         <>
-            <div id="schedule" className={`${greatVibes.className} h-auto backdrop-blur-md mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl py-8 text-white`}>
+            <div id="schedule" className={`h-auto backdrop-blur-sm mx-2 lg:mx-5 mt-5 px-1 lg:px-10 rounded-3xl py-8 text-white`}>
                 <div className=" flex lg:py-2 py-10 flex-col backdrop-blur-sm rounded-3xl h-auto ">
 
                     <div className={`${greatVibes.className} text-5xl lg:mt-10`}>
@@ -81,7 +88,7 @@ const Track = () => {
 
                     </div> */}
 
-                    <ul className={`${greatVibes.className} timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-white mt-10`}>
+                    <ul className={`timeline timeline-snap-icon max-md:timeline-compact timeline-vertical text-white mt-10`}>
                         <li>
                             <div className="timeline-middle text-white">
                                 <svg
@@ -96,8 +103,8 @@ const Track = () => {
                                 </svg>
                             </div>
                             <div className="timeline-start mb-5 md:text-end border p-5 max-w-[100%] lg:max-w-[80%]  rounded-3xl">
-                                <time className={`font-mono ${born2b.className} text-2xl text-orange-500`}>24th April 25</time>
-                                <div className="text-xl">Project Ppt. Submission</div>
+                                <time className={`font-mono ${born2b.className} text-2xl text-orange-500`}>25th April 2025</time>
+                                <div className="text-xl font-extrabold">Project Ppt. Submission</div>
                                 <p className="text-xl"> Submit your project presentation using the provided template from the 'Download Attachments' section on Unstop. Convert from PDF to PPTX to start working.</p>
                                
                                 <div className=" p-3  flex justify-end">
@@ -131,8 +138,8 @@ const Track = () => {
                                 </svg>
                             </div>
                             <div className="timeline-end mb-5 md:mb-10 border p-3 max-w-[100%] lg:max-w-[80%]  rounded-3xl">
-                                <time className={`font-mono ${born2b.className} text-2xl text-orange-500`}>26th Apr 25</time>
-                                <div className="text-xl">Round 1 | Online Pitching</div>
+                                <time className={`font-mono ${born2b.className} text-2xl text-orange-500`}>26th Apr 2025</time>
+                                <div className="text-xl font-extrabold">Round 1 | Online Pitching</div>
                                 <p className="text-xl">Present your project in an Online Meet with mentors & organizing team. Selected teams will advance to the offline finale.</p>
                                 
                             </div>
@@ -153,8 +160,8 @@ const Track = () => {
                                 </svg>
                             </div>
                             <div className="timeline-start mb-10 md:text-end  border p-5 max-w-[100%] lg:max-w-[80%] rounded-3xl">
-                                <time className={`font-mono ${born2b.className} text-2xl text-orange-500`}>1st May 25</time>
-                                <div className="text-2xl">Grand Finale</div>
+                                <time className={`font-mono ${born2b.className} text-2xl text-orange-500`}>1st May 2025</time>
+                                <div className="text-2xl font-extrabold">Grand Finale</div>
                                 <p className="text-xl">The ultimate 30-hour offline hackathon showdown! Bring your ideas to life and compete with the best minds from across the nation. 🏆</p>
                                 
                             </div>

@@ -38,13 +38,13 @@ export default function Home() {
         <Theme />
         <Prizes />
         <Sponsor />
+        <Team />
         <Chief />
         <Pateron />
         <Convenor />
         <Coordinator />
         <Benifectro />
         <Supported />
-        <Team />
         <Communit />
         <Contact />
         <Footer />
