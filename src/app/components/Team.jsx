@@ -71,21 +71,34 @@ const Team = () => {
                 />
               </div>
               <h1 className="text-4xl text-center">Akshat Bhargav	</h1>
-              <Link href="https://www.linkedin.com/in/akshat-bhargav-647289266/">
-                <Image
-                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
-                  height={30}
-                  width={30}
-                  alt='logo'
-                  className='text-center'
-                  loading='lazy'
-                />
-              </Link>
+
+              <div className="flex gap-5">
+                <Link href="https://www.linkedin.com/in/akshat-bhargav-647289266/">
+                  <Image
+                    src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
+                    height={30}
+                    width={30}
+                    alt='logo'
+                    className='text-center'
+                    loading='lazy'
+                  />
+                </Link>
+                <Link href="https://www.instagram.com/akshat.__.bhargav?igsh=MXJjNXRzamRzYW13ag==">
+                  <Image
+                    src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"
+                    height={30}
+                    width={30}
+                    alt='logo'
+                    className='text-center'
+                    loading='lazy'
+                  />
+                </Link>
+              </div>
             </div>
 
 
 
-            
+
             <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
               <div className="w-[100%] flex justify-center items-center">
                 <Image
@@ -158,9 +171,9 @@ const Team = () => {
                 />
               </div>
               <h1 className="text-4xl text-center">Sharique Hussain</h1>
-              <Link href="https://www.linkedin.com/in/shariquehussain-/">
-                <div className="flex gap-5">
 
+              <div className="flex gap-5">
+                <Link href="https://www.linkedin.com/in/shariquehussain-/">
                   <Image
                     src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
                     height={30}
@@ -169,6 +182,8 @@ const Team = () => {
                     className='text-center'
                     loading='lazy'
                   />
+                </Link>
+                <Link href="https://www.instagram.com/shariquehussain_/">
                   <Image
                     src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"
                     height={30}
@@ -177,9 +192,8 @@ const Team = () => {
                     className='text-center'
                     loading='lazy'
                   />
-                </div>
-              </Link>
-
+                </Link>
+              </div>
             </div>
 
 
@@ -195,16 +209,28 @@ const Team = () => {
                 />
               </div>
               <h1 className="text-4xl text-center">Ujjwal Katiyar</h1>
-              <Link href="https://www.linkedin.com/in/itsukcode/">
-                <Image
-                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
-                  height={30}
-                  width={30}
-                  alt='logo'
-                  className='text-center'
-                  loading='lazy'
-                />
-              </Link>
+              <div className="flex gap-5">
+                <Link href="https://www.linkedin.com/in/itsukcode/">
+                  <Image
+                    src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
+                    height={30}
+                    width={30}
+                    alt='logo'
+                    className='text-center'
+                    loading='lazy'
+                  />
+                </Link>
+                <Link href="https://x.com/devXrithm?s=09">
+                  <Image
+                    src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png"
+                    height={30}
+                    width={30}
+                    alt='logo'
+                    className='text-center'
+                    loading='lazy'
+                  />
+                </Link>
+              </div>
             </div>
 
 
