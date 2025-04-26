@@ -235,7 +235,7 @@ const Team = () => {
 
 
 
-            <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
+            {/* <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
               <div className="w-[100%] flex justify-center items-center">
                 <Image
                   src="https://media.licdn.com/dms/image/v2/D5603AQE5xn1hOoYf5g/profile-displayphoto-shrink_800_800/B56ZOvC1_lGwAc-/0/1733808579423?e=1749686400&v=beta&t=9-CcAZPF0dq2bWKQkjLCOtB-QeEqW6aaTq4YWtiaWOc"
@@ -257,7 +257,7 @@ const Team = () => {
                   loading='lazy'
                 />
               </Link>
-            </div>
+            </div> */}
           </div>
 
           {/* ******************** */}
