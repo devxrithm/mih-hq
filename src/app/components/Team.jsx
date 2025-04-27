@@ -261,10 +261,10 @@ const Team = () => {
 
 
 
-            {/* <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
-              <div className="w-[100%] flex justify-center items-center">
+            <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
+              <div className="w-[100%] flex justify-center items-center rounded-full">
                 <Image
-                  src="https://media.licdn.com/dms/image/v2/D5603AQE5xn1hOoYf5g/profile-displayphoto-shrink_800_800/B56ZOvC1_lGwAc-/0/1733808579423?e=1749686400&v=beta&t=9-CcAZPF0dq2bWKQkjLCOtB-QeEqW6aaTq4YWtiaWOc"
+                  src="/shashank.jpg"
                   height={200}
                   width={200}
                   alt='logo'
@@ -272,7 +272,7 @@ const Team = () => {
                   loading='lazy'
                 />
               </div>
-              <h1 className="text-4xl text-center">Anish</h1>
+              <h1 className="text-4xl text-center">Shashank Chopra</h1>
               <Link href="https://www.linkedin.com/in/anish-gupta-5471a129a/">
                 <Image
                   src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
@@ -283,7 +283,7 @@ const Team = () => {
                   loading='lazy'
                 />
               </Link>
-            </div> */}
+            </div>
           </div>
 
           {/* ******************** */}
