@@ -107,7 +107,7 @@ const Sponsor = () => {
                 {/* ****************Swag Partner*************** */}
 
                 <div className="">
-                    <div className="flex justify-center">
+                    {/* <div className="flex justify-center">
                         <div className="relative">
                             <Image
                                 src="/refreshment.jpg"
@@ -120,7 +120,7 @@ const Sponsor = () => {
                                 <h1 className="text-xl lg:text-3xl drop-shadow-lg text-black">Swag Partner</h1>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
 
                     <div className="flex justify-center items-center">

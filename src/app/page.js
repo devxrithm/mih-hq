@@ -19,6 +19,7 @@ import Supported from './components/Supported';
 import Benifectro from './components/Benifectro'
 import { EmberParticles } from './components/EmberParticles';
 import Theme from './components/Theme';
+import Voluntrees from "./components/Voluntrees";
 // import Theme from './components/Theme';
 
 export default function Home() {
@@ -39,6 +40,7 @@ export default function Home() {
         <Prizes />
         <Sponsor />
         <Team />
+        <Voluntrees/>
         <Chief />
         <Pateron />
         <Convenor />

@@ -273,7 +273,7 @@ const Team = () => {
                 />
               </div>
               <h1 className="text-4xl text-center">Shashank Chopra</h1>
-              <Link href="https://www.linkedin.com/in/anish-gupta-5471a129a/">
+              <Link href="https://www.linkedin.com/in/shashank-chopra-362270311">
                 <Image
                   src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
                   height={30}
