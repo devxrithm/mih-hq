@@ -109,15 +109,15 @@ const Track = () => {
                                
                                 <div className=" p-3  flex justify-end">
 
-                                    <p className="px-6 py-2 rounded-xl bg-orange-500 flex gap-4 text-xl justify-center items-center">
-                                        <Image
+                                    <p className="px-6 py-2 rounded-xl bg-orange-500 flex gap-4 text-xl justify-center items-center font-bold">
+                                        {/* <Image
                                             src="https://cdn-icons-png.flaticon.com/128/3049/3049365.png"
                                             width={20}
                                             height={20}
                                             alt='live'
                                             className='rounded'
-                                        />
-                                        Live</p>
+                                        /> */}
+                                        END</p>
                                 </div>
                             </div>
                             <hr className='bg-orange-500' />

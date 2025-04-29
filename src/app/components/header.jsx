@@ -64,13 +64,13 @@ const Header = () => {
             <Counter />
 
             <div className="flex justify-center items-center text-2xl text-white relative mt-8 lg:mt-10 hover:scale-95">
-                <Link href="https://unstop.com/hackathons/mind-installers-hackathon-3o-iimt-college-of-engineering-iimt-coe-greater-noida-1454209">
-                    <button className={`${greatVibes.className} cursor-pointer transition px-7 py-3 bg-orange-500 rounded-3xl`}>Register Now</button>
-                </Link>
+                
+                    <button className={`${greatVibes.className} cursor-pointer transition px-7 py-3 bg-orange-500 rounded-3xl`}>Register End</button>
+                
             </div>
 
             <div className={`${born2b.className} mt-5 text-white`}>
-                <p className="text-center text-xl">🚨 Registration deadline 23rd April 🚨 </p>
+                <p className="text-center text-xl">🚨 Registration End 🚨 </p>
             </div>
         </div>
     );
