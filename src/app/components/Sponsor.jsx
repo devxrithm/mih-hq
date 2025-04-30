@@ -160,7 +160,7 @@ const Sponsor = () => {
                                     loading='lazy'
                                 />
                                 <div className={`${born2b.className} absolute inset-0 flex items-center justify-center text-center bottom-5`}>
-                                    <h1 className="text-xl lg:text-2xl drop-shadow-lg">Swag Partner</h1>
+                                    <h1 className="text-xl lg:text-2xl drop-shadow-lg">Hackathon Platform Partner</h1>
                                 </div>
                             </div>
                         </div>

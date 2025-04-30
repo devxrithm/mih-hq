@@ -29,14 +29,14 @@ const Voluntrees = () => {
 
                 <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 justify-center items-center my-5 mx-10">
                     <Container
-                        img="/volunteers/gauri.jpg"
-                        link="#"
-                        name="Gauri Nautiyal"
-                    />
-                    <Container
                         img="/volunteers/sazid.jpg"
                         link="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                         name="Sazid Sheikh"
+                    />
+                    <Container
+                        img="/volunteers/gauri.jpg"
+                        link="#"
+                        name="Gauri Nautiyal"
                     />
                     <Container
                         img="/volunteers/riya.jpg"
