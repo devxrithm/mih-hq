@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "MIH 3.0",
+  title: "Mind Installers Hackathon MIH 3.0",
   description: "The Mind Installers Hackathon is back with its 3rd edition, bringing together some of the brightest tech minds from all over the country for an exciting competition!",
   authors: [{ name: 'Ujjwal Katiyar aka Devrithm' }],
   keywords: ['MIH 3.0', 'Mind Installers Hackathon 3.0', 'IIMT', 'mih 3.0', 'mih', 'mind installers hackathon', 'hackathon', 'unstop'],
