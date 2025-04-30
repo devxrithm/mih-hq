@@ -6,8 +6,8 @@ import { greatVibes, born2b } from '../../../styles/font'
 const Voluntrees = () => {
     return (
         <>
-            <div className={`${greatVibes.className} text-5xl backdrop-blur-sm mt-10`}>
-                <div className="flex justify-center items-center gap-10 pt-14 ">
+            <div className={`${greatVibes.className} text-5xl backdrop-blur-sm my-10`}>
+                <div className="flex justify-center items-center gap-10 py-14 ">
                     <div className="rotate-225 hidden lg:block ">
                         {/* <Image
                                                     src="https://cdn-icons-png.flaticon.com/128/2858/2858964.png"
@@ -27,68 +27,57 @@ const Voluntrees = () => {
                     </div>
                 </div>
 
-                <div className="flex gap-10 flex-wrap justify-center items-center mt-16 mx-7">
+                <div className="grid grid-cols-1 lg:grid-cols-5 gap-5 justify-center items-center my-5 mx-10">
                     <Container
-                        img="/anshika.jpeg"
-                        link="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                        name="Anshika singh"
+                        img="/volunteers/gauri.jpg"
+                        link="#"
+                        name="Gauri Nautiyal"
                     />
                     <Container
-                        img="/ukcode07.jpeg"
+                        img="/volunteers/sazid.jpg"
                         link="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                        name="Ujjwal Katiyar"
+                        name="Sazid Sheikh"
                     />
                     <Container
-                        img="/anshika.jpeg"
+                        img="/volunteers/riya.jpg"
                         link="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                        name="Anshika singh"
+                        name="Khushi"
                     />
                     <Container
-                        img="/anshika.jpeg"
+                        img="/volunteers/IMG-20250430-WA0012.jpg"
                         link="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                        name="Anshika singh"
+                        name="Uday Singh Rana"
                     />
                     <Container
-                        img="/anshika.jpeg"
+                        img="/volunteers/IMG-20250430-WA0050.jpg"
                         link="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                        name="Anshika singh"
+                        name="Harshit"
                     />
                     <Container
-                        img="/anshika.jpeg"
+                        img="/volunteers/IMG-20250430-WA0051.jpg"
                         link="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                        name="Anshika singh"
+                        name="Aviral Singh"
                     />
                     <Container
-                        img="/anshika.jpeg"
+                        img="/volunteers/IMG-20250430-WA0048.jpg"
                         link="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                        name="Anshika singh"
+                        name="Naveen"
                     />
                     <Container
-                        img="/anshika.jpeg"
+                        img="/volunteers/IMG-20250430-WA0052.jpg"
                         link="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                        name="Anshika singh"
+                        name="Kanika Sharma"
                     />
                     <Container
-                        img="/anshika.jpeg"
+                        img="/volunteers/muskan.jpg"
                         link="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                        name="Anshika singh"
+                        name="Muskan"
                     />
                     <Container
-                        img="/anshika.jpeg"
+                        img="/volunteers/taniya.jpg"
                         link="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                        name="Anshika singh"
+                        name="Taniya"
                     />
-                    <Container
-                        img="/anshika.jpeg"
-                        link="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                        name="Anshika singh"
-                    />
-                    <Container
-                        img="/anshika.jpeg"
-                        link="https://www.linkedin.com/in/anshika-singh-2ab26830a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                        name="Anshika singh"
-                    />
-
                 </div>
             </div>
         </>

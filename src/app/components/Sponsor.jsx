@@ -60,10 +60,10 @@ const Sponsor = () => {
                         <div className="relative">
                             <Image
                                 src="/par.jpg"
-                                height={320}
-                                width={320}
+                                height={450}
+                                width={450}
                                 alt="logo"
-                                className="w-auto h-auto object-cover"
+                                className=" object-cover"
                                 loading='lazy'
                             />
                             <div className={`${born2b.className} absolute inset-5 right-10 flex items-center justify-center text-center bottom-1`}>
@@ -119,7 +119,7 @@ const Sponsor = () => {
                                     loading='lazy'
                                 />
                                 <div className={`${born2b.className} absolute inset-0 flex items-center justify-center text-center bottom-5`}>
-                                    <h1 className="text-xl lg:text-3xl drop-shadow-lg">Entertainment Partner</h1>
+                                    <h1 className="text-xl lg:text-2xl drop-shadow-lg">Entertainment Partner</h1>
                                 </div>
                             </div>
                         </div>
@@ -160,7 +160,7 @@ const Sponsor = () => {
                                     loading='lazy'
                                 />
                                 <div className={`${born2b.className} absolute inset-0 flex items-center justify-center text-center bottom-5`}>
-                                    <h1 className="text-xl lg:text-3xl drop-shadow-lg">Swag Partner</h1>
+                                    <h1 className="text-xl lg:text-2xl drop-shadow-lg">Swag Partner</h1>
                                 </div>
                             </div>
                         </div>
@@ -203,7 +203,7 @@ const Sponsor = () => {
                                     loading='lazy'
                                 />
                                 <div className={`${born2b.className} absolute inset-0 flex items-center justify-center text-center bottom-5`}>
-                                    <h1 className="text-xl lg:text-3xl drop-shadow-lg">Managing Partner</h1>
+                                    <h1 className="text-xl lg:text-2xl drop-shadow-lg">Tech Community Partner</h1>
                                 </div>
                             </div>
                         </div>

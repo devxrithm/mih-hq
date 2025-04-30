@@ -146,7 +146,29 @@ const Team = () => {
                 />
               </Link>
             </div>
-
+            <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
+              <div className="w-[100%] flex justify-center items-center rounded-full">
+                <Image
+                  src="/ankur.jpg"
+                  height={200}
+                  width={200}
+                  alt='logo'
+                  className='text-center rounded-full w-auto h-auto'
+                  loading='lazy'
+                />
+              </div>
+              <h1 className="text-4xl text-center">Ankur Rawat</h1>
+              <Link href="https://www.linkedin.com/in/ankur-rawat-a638761b3/">
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
+                  height={30}
+                  width={30}
+                  alt='logo'
+                  className='text-center'
+                  loading='lazy'
+                />
+              </Link>
+            </div>
 
           </div>
 
@@ -284,6 +306,34 @@ const Team = () => {
                 />
               </Link>
             </div>
+
+
+
+            <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
+              <div className="w-[100%] flex justify-center items-center rounded-full">
+                <Image
+                  src="/tripti.jpg"
+                  height={200}
+                  width={200}
+                  alt='logo'
+                  className='text-center rounded-full w-auto h-auto'
+                  loading='lazy'
+                />
+              </div>
+              <h1 className="text-4xl text-center">Tripti Sharma</h1>
+              <Link href="https://www.linkedin.com/in/shashank-chopra-362270311">
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
+                  height={30}
+                  width={30}
+                  alt='logo'
+                  className='text-center'
+                  loading='lazy'
+                />
+              </Link>
+            </div>
+
+
           </div>
 
           {/* ******************** */}
@@ -382,6 +432,31 @@ const Team = () => {
               </div>
               <h1 className="text-4xl text-center">Vibhawshu Pratap	</h1>
               <Link href="https://www.linkedin.com/in/vibhawshu-pratap-singh-44473126a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <Image
+                  src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
+                  height={30}
+                  width={30}
+                  alt='logo'
+                  className='text-center'
+                  loading='lazy'
+                />
+              </Link>
+            </div>
+
+
+            <div className="border min-w-96 p-10 rounded-3xl  flex flex-col gap-5 justify-center items-center">
+              <div className="w-[100%] flex justify-center items-center rounded-full">
+                <Image
+                  src="/volunteers/riya.jpg"
+                  height={200}
+                  width={200}
+                  alt='logo'
+                  className='text-center rounded-full w-auto h-auto'
+                  loading='lazy'
+                />
+              </div>
+              <h1 className="text-4xl text-center">Riya Singh</h1>
+              <Link href="https://www.linkedin.com/in/shashank-chopra-362270311">
                 <Image
                   src="https://cdn-icons-png.flaticon.com/128/4494/4494497.png"
                   height={30}
