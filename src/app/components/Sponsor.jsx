@@ -220,7 +220,7 @@ const Sponsor = () => {
                                 />
                                 <div className={`${born2b.className} absolute inset-5 right-5 flex items-center justify-center text-center bottom-5`}>
                                     <Image
-                                        src="/logo SN.png"
+                                        src="/Kapidhwaj.jpg.png"
                                         height={100}
                                         width={100}
                                         alt='logo'
