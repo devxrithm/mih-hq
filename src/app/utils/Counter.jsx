@@ -6,10 +6,10 @@ import { greatVibes, born2b } from '../../../styles/font'
 
 const Counter = () => {
 
-    const [day, setDay] = useState()
-    const [hours, sethours] = useState()
-    const [min, setMin] = useState()
-    const [sec, setSec] = useState()
+    const [day, setDay] = useState("0")
+    const [hours, sethours] = useState("0")
+    const [min, setMin] = useState("0")
+    const [sec, setSec] = useState("0")
 
     var countDownDate = new Date("May 1, 2025 15:37:25").getTime();
 
@@ -37,8 +37,11 @@ const Counter = () => {
 
         // If the count down is over, write some text 
         if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("demo").innerHTML = "EXPIRED";
+            // clearInterval(x);
+            setDay("0")
+            sethours("0")
+            setMin("0")
+            setSec("0")
         }
     }, 1000);
 
